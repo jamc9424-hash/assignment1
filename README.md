@@ -19,6 +19,7 @@ The Gift Cards source is gzipped JSON Lines. The project validated all **152,410
 | Deliverable | File |
 |---|---|
 | Reusable sentiment and emotion prompt | [`sentiment_prompt.py`](sentiment_prompt.py) |
+| OpenAI-compatible endpoint runner | [`run_openai_compatible.py`](run_openai_compatible.py) |
 | Balanced-run scoring script | [`score_balanced_3class.py`](score_balanced_3class.py) |
 | NRC word-list loader and emotion scorer | [`emotion_lexicon.py`](emotion_lexicon.py) |
 | Word-list execution script | [`run_emotion_lexicon.py`](run_emotion_lexicon.py) |
@@ -99,6 +100,21 @@ The largest divergence is **anticipation**: the word list selected it for **77**
 - **Bar overflow:** The reference-versus-prediction chart initially normalized prediction bars only against the reference maximum, producing widths above 100%. The chart now normalizes against the maximum of both distributions.
 - **Small chart elements:** Correct-rate and star-rating bars use explicit minimum widths while displaying exact counts beside the bars, so small groups remain visible and interpretable.
 - **Emotion-method limitations:** NRC scoring is intentionally independent from the LLM, but its lexical counts can miss context and return no match. The report preserves both methods instead of treating one as a replacement for the other.
+
+## Running through an OpenAI-compatible endpoint
+
+The repository includes [`run_openai_compatible.py`](run_openai_compatible.py), which sends each blinded review to the standard `/chat/completions` route and validates the returned sentiment/emotion JSON. It uses only Python's standard library:
+
+```bash
+export OPENAI_API_KEY='your-key'
+export OPENAI_BASE_URL='https://api.openai.com/v1'  # or another compatible endpoint
+export OPENAI_MODEL='your-model'
+python run_openai_compatible.py \
+  evaluation/balanced-3class-150/blind_batch_1.json \
+  evaluation/balanced-3class-150/endpoint_batch_1.json
+```
+
+The script sends `title` and `text` through `build_sentiment_emotion_messages`; it does not send ratings or reference labels. The checked-in `llm_batch_1.json` is one completed balanced-run raw output used for the reported evaluation.
 
 ## Reproduction and verification
 
