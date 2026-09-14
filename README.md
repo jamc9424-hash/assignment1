@@ -1,103 +1,117 @@
-# Amazon Gift Cards sentiment classification
+# Amazon Gift Cards: Sentiment and Emotion Classification
 
-MBAX6418 assignment 1. Python 3.10+; standard library only.
+## Final deliverables review
 
-## Current feature: reusable three-class sentiment prompt
+This project classifies Amazon Gift Cards reviews by sentiment and primary emotion. The implementation uses a reusable prompt, blinded LLM predictions, a post-hoc rating-derived reference target, an NRC word-list comparison, and a self-contained offline dashboard.
 
-`sentiment_prompt.py` provides:
-- `SYSTEM_PROMPT`: versioned instructions for `POSITIVE`, `NEUTRAL`, or `NEGATIVE`.
-- `build_sentiment_messages(title, text)`: role-separated messages containing only
-  the review title and text.
-- `build_sentiment_emotion_messages(title, text)`: strict JSON prompt for sentiment
-  plus one primary NRC emotion.
-- `parse_sentiment` and `parse_sentiment_emotion`: strict validators that reject
-  malformed or out-of-vocabulary model output rather than guessing.
+## Data source
 
-The current rating reference convention is **4–5 = POSITIVE, 3 = NEUTRAL, and
-1–2 = NEGATIVE**. The prompt treats neutral/mixed reviews as NEUTRAL when no
-assessment dominates, while preserving guidance for sarcasm, passive aggression,
-negation, conflicting title/body, and unresolved purchase failures. Ratings are
-never sent to the LLM.
+The reviews come from the **Amazon Reviews '23** dataset collected by the McAuley Lab at UC San Diego. Dataset overview, scale, categories, and field definitions:
 
-This feature constructs prompts; it does not make an API request. Astra is the
-intended LLM, but no endpoint, credentials, SDK, or provider model ID is assumed.
+- [Amazon Reviews '23 dataset page](https://amazon-reviews-2023.github.io/)
+- [Gift Cards review file](https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Gift_Cards.jsonl.gz)
+- [Amazon Reviews '23 paper](https://arxiv.org/abs/2403.03952)
 
-### Manual examples (synthetic; not measured results)
+The Gift Cards source is gzipped JSON Lines. The project validated all **152,410** source reviews and used the fields `rating`, `title`, `text`, `verified_purchase`, `helpful_vote`, `timestamp`, `images`, `asin`, `parent_asin`, and `user_id`. Ratings are integral float values from 1.0 through 5.0.
 
-| Title | Text | Expected label |
-|---|---|---|
-| Thanks for nothing | A card with zero balance. | NEGATIVE |
-| Works fine | It arrived and redeemed without trouble. | POSITIVE |
-| Gift card | Delivered Tuesday; it is a twenty-dollar card. | NEUTRAL |
-| Good gift | The envelope was bent, but the card worked and Dad loved it. | POSITIVE |
-| Easy to use | Very easy to use, though I wish I knew earlier. | NEUTRAL |
+## Deliverables
 
-## Evaluation: first 100 reviews
+| Deliverable | File |
+|---|---|
+| Reusable sentiment and emotion prompt | [`sentiment_prompt.py`](sentiment_prompt.py) |
+| Balanced-run scoring script | [`score_balanced_3class.py`](score_balanced_3class.py) |
+| NRC word-list loader and emotion scorer | [`emotion_lexicon.py`](emotion_lexicon.py) |
+| Word-list execution script | [`run_emotion_lexicon.py`](run_emotion_lexicon.py) |
+| Dashboard generator | [`build_balanced_dashboard.py`](build_balanced_dashboard.py) |
+| One balanced run's raw LLM output | [`llm_batch_1.json`](evaluation/balanced-3class-150/llm_batch_1.json) |
+| Final dashboard | [`dashboard.html`](evaluation/balanced-3class-150/dashboard.html) |
+| Saved scoring output | [`metrics.json`](evaluation/balanced-3class-150/metrics.json) |
+| Review-level evidence | [`scored_reviews.json`](evaluation/balanced-3class-150/scored_reviews.json) |
+| Browser capture of final interface | [`dashboard-task11.png`](evaluation/balanced-3class-150/dashboard-task11.png) |
 
-The blinded first-batch evaluation is preserved under `evaluation/gift-cards-batch-100/`.
-Astra classified each review from title and text only; ratings were read afterward
-and converted to the reference rule `4–5 stars = POSITIVE`, `1–3 stars = NEGATIVE`.
-Results: 98/100 accuracy, 92.31% macro F1, and 92.31% balanced accuracy. The HTML
-file provides the visual score-vs-rating report. These are rating-proxy results,
-not gold sentiment labels; see `metrics.json` for the two disagreements and full
-confusion matrix. `manifest.json` records the prompt/source hashes and leakage
-controls. Reviewer text is included in `scored_reviews.csv`; do not add reviewer
-IDs or the raw dataset.
+![Final dashboard interface](evaluation/balanced-3class-150/dashboard-task11.png)
 
-## Emotion comparison: LLM vs NRC lexicon
+The dashboard is a standalone HTML file: it requires no server, external library, network request, or API at runtime.
 
-Step 5 keeps two independent primary-emotion outputs for the 100-review batch:
+## Target definition and evaluation design
 
-- `build_sentiment_emotion_messages` asks Astra for strict JSON containing sentiment
-  and one of eight NRC emotions.
-- `emotion_lexicon.score_primary_emotion` tokenizes title + text, adds one point per
-  matching NRC emotion association, uses a fixed order for ties, and returns `null`
-  when no emotion-bearing word matches.
+The balanced benchmark uses a fixed random seed of **6418** and samples **50 reviews per class** from the full source file:
 
-The NRC comparison found 19 agreements among 85 reviews with a lexicon match
-(**22.35%**), plus 15 no-match reviews. Treating no-match as non-agreement gives
-19/100 (**19%**). NRC selected anticipation for 59 reviews, while Astra selected joy
-for 48 and trust for 42. This is expected to diverge: word counts are sensitive to
-surface words, while the LLM uses context. Neither output is gold emotion truth.
-Open `evaluation/gift-cards-batch-100/emotion-comparison.html` for the visual
-comparison and evidence table. `emotion_comparison.json` and `.csv` contain all
-joinable results and matched-word evidence.
+- Ratings 4–5 → `POSITIVE`
+- Rating 3 → `NEUTRAL`
+- Ratings 1–2 → `NEGATIVE`
 
-Source: NRC Emotion Lexicon v0.92 from the [public repository](https://github.com/Franck-Dernoncourt/NRC_Emotion_Lexicon).
-The NRC source README states that commercial use requires permission from NRC; see
-`data/NRC-emotion-lexicon-wordlevel-alphabetized-v0.92.txt` for the preserved source.
-## Balanced three-class benchmark
+The LLM input contains only an ID, title, and review text. Ratings, rating-derived labels, reference answers, and word-list results are withheld until after predictions are locked. The rating rule is an evaluation proxy, not independent gold sentiment truth.
 
-The current benchmark samples 50 reviews per class from the entire 152,410-review
-file with fixed seed 6418. It is stored under `evaluation/balanced-3class-150/`.
-The results are 113/150 correct (**75.33%**), macro F1 **72.08%**, and balanced
-accuracy **75.33%**. Per-class recall is POSITIVE **98%**, NEUTRAL **34%**, and
-NEGATIVE **94%**. Among the 50 three-star reviews, Astra predicted NEUTRAL 17,
-NEGATIVE 25, and POSITIVE 8: the model gives 3-star reviews their own class but
-still collapses most of them into polarity, especially negative.
+## 1. Why did the lopsided run look accurate?
 
-Open `evaluation/balanced-3class-150/dashboard.html` for the confusion matrix,
-per-class metrics, 3-star routing view, and review-level audit. The fixed sample
-and post-hoc labels are in `manifest.json` and `reference_labels.json`; blind
-inputs contain no ratings or reference labels. `metrics.json` contains the exact
-scoring output.
-## Run tests
+The historical binary run evaluated the first **100** reviews in file order. Its saved reference distribution was **93 POSITIVE** and **7 NEGATIVE**. Astra got **98/100** correct (**98%**), but an always-POSITIVE classifier would already score **93/100** (**93%**). The binary confusion matrix contained **92** positive reviews correctly called positive, **6** negative reviews correctly called negative, one positive review called negative, and one negative review called positive.
+
+Therefore, the 98% accuracy was dominated by the majority class. It did not provide much evidence about the rarer negative cases and contained only **2** three-star reviews in its rating breakdown.
+
+Equal sampling changed the question. The balanced run contains **50 POSITIVE, 50 NEUTRAL, and 50 NEGATIVE** reviews, so each class contributes equally to accuracy and macro metrics. Accuracy fell to **75.33% (113/150)**, but this is a more informative estimate of class behavior because the neutral and negative classes can no longer be hidden by the majority class.
+
+## 2. Where do the mistakes go?
+
+The balanced-run confusion matrix below is copied from `evaluation/balanced-3class-150/metrics.json` and is also visible in the final dashboard. Rows are the rating-derived reference class; columns are Astra's prediction.
+
+| Reference ↓ / Prediction → | POSITIVE | NEUTRAL | NEGATIVE |
+|---|---:|---:|---:|
+| POSITIVE | 49 | 1 | 0 |
+| NEUTRAL | 8 | 17 | 25 |
+| NEGATIVE | 2 | 1 | 47 |
+
+The dominant failure direction is **NEUTRAL → NEGATIVE: 25 reviews**. Neutral reviews are also called positive **8 times**. Thus only **17 of 50** neutral reviews are retained as neutral (**34%** recall).
+
+Negative reviews are mostly recognized: **47 of 50** are called negative (**94%** recall). Negative reviews are called positive **2 times** and neutral **1 time**. Positive reviews are also recognized strongly: **49 of 50** are called positive (**98%** recall).
+
+The model predicted **59 POSITIVE**, **19 NEUTRAL**, and **72 NEGATIVE** reviews, compared with the reference count of 50 in each class. The class-level correct rates are visible in the dashboard as **49/50 (98%)** for positive, **17/50 (34%)** for neutral, and **47/50 (94%)** for negative.
+
+Overall balanced-run metrics are **75.33% accuracy**, **72.08% macro F1**, and **75.33% balanced accuracy**. The three-star subset contains exactly **50** reviews: Astra predicted **17 NEUTRAL**, **25 NEGATIVE**, and **8 POSITIVE**. Three-star reviews have their own class in the pipeline, but the model collapses most of them into polarity.
+
+## 3. How do the LLM and word-list emotions differ?
+
+Each LLM output includes one primary emotion from the eight NRC categories: anger, anticipation, disgust, fear, joy, sadness, surprise, or trust. Independently, the NRC word-list scorer counts emotion-bearing words and chooses the highest-scoring emotion using deterministic tie ordering. The LLM interprets context; the word list counts lexical associations without understanding context, negation, sarcasm, or the relationship between a word and the review's overall meaning.
+
+In the balanced run, the two methods had an emotion match on **13 of 121** reviews where the NRC method had at least one matched word (**10.74%** agreement). Across all **150** reviews, including **29** with no NRC match, agreement was **8.67%**. The LLM and NRC distributions were visibly different:
+
+| Emotion | LLM | NRC word list |
+|---|---:|---:|
+| anger | 40 | 12 |
+| anticipation | 2 | 77 |
+| disgust | 6 | 1 |
+| fear | 3 | 3 |
+| joy | 38 | 12 |
+| sadness | 26 | 3 |
+| surprise | 7 | 1 |
+| trust | 28 | 12 |
+| no match | — | 29 |
+
+The largest divergence is **anticipation**: the word list selected it for **77** reviews, while the LLM selected it for **2**. Repeated words such as “gift,” “good,” and “time” can accumulate anticipation associations even when the review's context expresses anger, disappointment, or sadness. Conversely, the LLM can use the whole review to identify an emotional interpretation that is not represented by the highest lexical count. The **29** no-match cases also show a limitation of word-list scoring: short or unusual reviews may contain no recognized NRC emotion words.
+
+## 4. Bugs, issues, and workarounds
+
+- **Class imbalance:** Reading the first rows produced a 93-to-7 binary split. The workaround was to scan all 152,410 reviews and sample 50 per class with seed 6418.
+- **Rating leakage risk:** Ratings and derived labels were kept out of every blind LLM input. They were joined only after predictions were locked.
+- **Inline dashboard script failure:** Review text can contain HTML-like sequences. The generator escapes `</` in embedded JSON so review content cannot terminate the dashboard script.
+- **Stale dashboard DOM update:** An earlier dashboard script still referenced a removed `#baseline` element. That exception prevented filter handlers from being attached. Removing the stale update restored the live table and filters.
+- **Rating filter mismatch:** Dropdown values such as `3` initially failed to match stored values such as `3.0`. The filter now converts ratings to numbers before comparison.
+- **Bar overflow:** The reference-versus-prediction chart initially normalized prediction bars only against the reference maximum, producing widths above 100%. The chart now normalizes against the maximum of both distributions.
+- **Small chart elements:** Correct-rate and star-rating bars use explicit minimum widths while displaying exact counts beside the bars, so small groups remain visible and interpretable.
+- **Emotion-method limitations:** NRC scoring is intentionally independent from the LLM, but its lexical counts can miss context and return no match. The report preserves both methods instead of treating one as a replacement for the other.
+
+## Reproduction and verification
+
+Run the tests:
 
 ```bash
 python -m unittest discover -s tests -v
 ```
 
-GitHub Actions runs the same suite on pushes and pull requests. No API credentials
-are needed for tests. Never commit tokens or the raw review dataset.
+The final verification completed with **8 tests passing**. The dashboard was also checked in Chromium against the saved output: it rendered **150** initial rows, **37** error rows under the errors filter, and **50** rows under the three-star filter. Browser checks confirmed the visible star counts, class distributions, correct rates, and bounded chart widths listed above.
 
-## Dataset
+## Submission
 
-[Amazon Reviews 2023](https://amazon-reviews-2023.github.io/), Gift Cards category,
-collected by the McAuley Lab at UC San Diego.
-[Download the gzip JSON Lines file](https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Gift_Cards.jsonl.gz).
+Repository: [github.com/jamc9424-hash/assignment1](https://github.com/jamc9424-hash/assignment1)
 
-The preceding full-file verification parsed 152,410 records with all ten expected
-fields, found 49 blank review bodies, and measured 84.15% five-star ratings. This
-rating imbalance is not a measured sentiment-label distribution. The data contains
-ratings, not gold sentiment or emotion labels. Preserve raw metadata for future
-analysis and grouping, but keep it out of the sentiment prompt.
+The repository contains this report, the project code, the balanced raw output, the saved scoring artifacts, and the final dashboard.
