@@ -1,0 +1,101 @@
+﻿id,title,rating,sentiment,llm_emotion,lexicon_emotion,emotion_agreement,lexicon_scores,matched_words
+1,Great gift,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 1, ""anticipation"": 3, ""disgust"": 0, ""fear"": 0, ""joy"": 3, ""sadness"": 0, ""surprise"": 3, ""trust"": 2}",gift money good
+2,amazon gift card,5.0,POSITIVE,joy,joy,True,"{""anger"": 1, ""anticipation"": 6, ""disgust"": 1, ""fear"": 0, ""joy"": 7, ""sadness"": 2, ""surprise"": 4, ""trust"": 3}",gift perfect gift disappointed excited perfect late birthday baby
+3,perfect gift,5.0,POSITIVE,joy,joy,True,"{""anger"": 0, ""anticipation"": 5, ""disgust"": 0, ""fear"": 0, ""joy"": 7, ""sadness"": 0, ""surprise"": 4, ""trust"": 1}",perfect gift gift hobby gift gift glee
+4,Nice looking,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 1, ""anticipation"": 8, ""disgust"": 0, ""fear"": 1, ""joy"": 8, ""sadness"": 1, ""surprise"": 3, ""trust"": 4}",pretty pretty ribbon perfect love shopping ship gift case gift
+5,Not $10 Gift Cards,1.0,NEGATIVE,anger,joy,False,"{""anger"": 0, ""anticipation"": 5, ""disgust"": 0, ""fear"": 1, ""joy"": 8, ""sadness"": 1, ""surprise"": 5, ""trust"": 3}",gift gift daughter daughter cashier forgotten gift found receiving gift cover
+6,Cute!,5.0,POSITIVE,joy,joy,True,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",adorable
+7,Easy gift,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 0}",gift gift
+8,Great gift,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 1, ""trust"": 0}",gift
+9,Gifts for my two granddaughters,5.0,POSITIVE,joy,joy,True,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",love
+10,"Great for saying “thank you” to the mail person, farrier, yard man,etc",5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",mail
+11,"Convenient, safe, and perfect gift",5.0,POSITIVE,joy,joy,True,"{""anger"": 0, ""anticipation"": 5, ""disgust"": 0, ""fear"": 0, ""joy"": 6, ""sadness"": 0, ""surprise"": 3, ""trust"": 3}",safe perfect gift gift perfect gift
+12,Giftcard,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 3, ""disgust"": 0, ""fear"": 0, ""joy"": 3, ""sadness"": 0, ""surprise"": 3, ""trust"": 1}",gift good gift
+13,Simple giftcard!,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 1, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 1}",gift money
+14,Great giftcard,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 1, ""trust"": 0}",gift
+15,Easy..,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 1, ""trust"": 1}",shopping
+16,One Star,1.0,NEGATIVE,anger,anticipation,False,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 0, ""trust"": 1}",star
+17,Great Product.,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 1, ""trust"": 0}",gift recipient
+18,No note attached to sent gift card,5.0,NEGATIVE,sadness,anticipation,False,"{""anger"": 1, ""anticipation"": 8, ""disgust"": 0, ""fear"": 0, ""joy"": 4, ""sadness"": 0, ""surprise"": 3, ""trust"": 1}",gift pretty gift recipient complaint time recipient gift mail
+19,Gift card,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 1, ""trust"": 1}",gift perfect
+20,Good,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 3, ""disgust"": 0, ""fear"": 0, ""joy"": 3, ""sadness"": 0, ""surprise"": 3, ""trust"": 2}",good good gift
+21,Good Product,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 2}",good good
+22,Good Product,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 2}",good good
+23,Good Product,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 2}",good good
+24,Good Product,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 2}",good good
+25,Good Product,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 2}",good good
+26,Good product,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 2}",good good
+27,Good product,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 2}",good good
+28,Good Product,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 2}",good good
+29,Good Product,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 2}",good good
+30,Good,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 2}",good good
+31,Gift card,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 1, ""trust"": 1}",gift perfect
+32,So easy,5.0,POSITIVE,trust,,,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",
+33,Mistake,2.0,NEGATIVE,anger,sadness,False,"{""anger"": 1, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 2, ""surprise"": 0, ""trust"": 1}",mistake hit mistake credit
+34,Great gift idea,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 1, ""trust"": 0}",gift
+35,Secure,5.0,POSITIVE,trust,,,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",
+36,Birthday surprise!,5.0,POSITIVE,surprise,joy,False,"{""anger"": 0, ""anticipation"": 3, ""disgust"": 0, ""fear"": 2, ""joy"": 5, ""sadness"": 0, ""surprise"": 5, ""trust"": 1}",birthday surprise good birthday surprise
+37,Birthday Gift,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 5, ""disgust"": 0, ""fear"": 0, ""joy"": 5, ""sadness"": 0, ""surprise"": 4, ""trust"": 0}",birthday gift holiday birthday receiving
+38,Fun,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",fun
+39,Reload is super easy.,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 1, ""trust"": 0}",ready gift
+40,Convenience of giftabiliy.,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 1, ""trust"": 0}",gift
+41,Great Gift Package,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 0}",gift gift
+42,Grest Sandwitches !!,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 0, ""trust"": 1}",perfect
+43,GOOD PIZZA !!,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 1, ""trust"": 2}",good perfect
+44,We like this Store and they stock Tons of different Items for all kinds of Pets,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",store love
+45,Money was loaded on card,5.0,POSITIVE,trust,anger,False,"{""anger"": 2, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 2}",money money
+46,👍,5.0,POSITIVE,joy,,,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",
+47,Love it!!,5.0,POSITIVE,joy,joy,True,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 1, ""trust"": 1}",love gift show
+48,Five Stars,5.0,POSITIVE,joy,anger,False,"{""anger"": 1, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 1, ""trust"": 0}",gift hit
+49,So cool you can get a free tin with the gift ...,5.0,POSITIVE,joy,joy,True,"{""anger"": 0, ""anticipation"": 3, ""disgust"": 0, ""fear"": 0, ""joy"": 4, ""sadness"": 0, ""surprise"": 3, ""trust"": 2}",gift gift gift kind recommend
+50,Reccomend,5.0,POSITIVE,trust,,,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",
+51,Little sister surprise,5.0,POSITIVE,anticipation,anticipation,True,"{""anger"": 0, ""anticipation"": 5, ""disgust"": 0, ""fear"": 1, ""joy"": 5, ""sadness"": 0, ""surprise"": 5, ""trust"": 2}",surprise gift anticipation birthday present good
+52,"The added value was great, but no more",1.0,NEGATIVE,disgust,anticipation,False,"{""anger"": 0, ""anticipation"": 3, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 1}",gift monetary cheer
+53,Perfect gift!,4.0,POSITIVE,joy,joy,True,"{""anger"": 0, ""anticipation"": 5, ""disgust"": 0, ""fear"": 0, ""joy"": 6, ""sadness"": 0, ""surprise"": 4, ""trust"": 3}",perfect gift gift good food gift
+54,Great staff appreciation gift!,4.0,POSITIVE,joy,joy,True,"{""anger"": 1, ""anticipation"": 4, ""disgust"": 1, ""fear"": 1, ""joy"": 6, ""sadness"": 1, ""surprise"": 4, ""trust"": 3}",appreciation gift gift treat gift content
+55,Cute cute cute!,5.0,POSITIVE,joy,joy,True,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 1, ""trust"": 0}",love gift
+56,Five Stars,5.0,POSITIVE,trust,,,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",
+57,As described.,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 1, ""trust"": 0}",gift time
+58,Perfect gift for any occasion. Let them pick out what they love!,5.0,POSITIVE,joy,joy,True,"{""anger"": 0, ""anticipation"": 3, ""disgust"": 0, ""fear"": 0, ""joy"": 6, ""sadness"": 0, ""surprise"": 3, ""trust"": 2}",perfect gift love love wonderful gift
+59,12 year old daughter loved this gift!,5.0,POSITIVE,joy,joy,True,"{""anger"": 0, ""anticipation"": 3, ""disgust"": 0, ""fear"": 0, ""joy"": 4, ""sadness"": 0, ""surprise"": 2, ""trust"": 1}",daughter gift perfect gift
+60,Easy to send to an Amazon shopper,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 1, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 0}",gift gift fee
+61,Rec'd promo from Amazon when reloading gift card.,5.0,POSITIVE,surprise,anticipation,False,"{""anger"": 0, ""anticipation"": 4, ""disgust"": 0, ""fear"": 0, ""joy"": 4, ""sadness"": 0, ""surprise"": 4, ""trust"": 1}",gift bonus gift gift account
+62,Saves a Little Over time.,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 1, ""trust"": 1}",time save gift
+63,What a great company,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 1, ""trust"": 0}",gift
+64,A problem to use at drive thru's,1.0,NEGATIVE,anger,trust,False,"{""anger"": 0, ""anticipation"": 3, ""disgust"": 0, ""fear"": 2, ""joy"": 2, ""sadness"": 2, ""surprise"": 1, ""trust"": 5}",problem time difficult credit gift transaction lost provide happy credit
+65,A gift card does make a great gift for a tweenager.,5.0,POSITIVE,joy,joy,True,"{""anger"": 0, ""anticipation"": 6, ""disgust"": 0, ""fear"": 0, ""joy"": 7, ""sadness"": 0, ""surprise"": 5, ""trust"": 3}",gift gift good secret gift love happy birthday
+66,Nice to have,5.0,POSITIVE,trust,disgust,False,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 1, ""fear"": 0, ""joy"": 0, ""sadness"": 1, ""surprise"": 0, ""trust"": 0}",guilt
+67,Excellent Gift,5.0,POSITIVE,joy,joy,True,"{""anger"": 0, ""anticipation"": 3, ""disgust"": 0, ""fear"": 0, ""joy"": 4, ""sadness"": 0, ""surprise"": 2, ""trust"": 2}",excellent gift gift happy
+68,Yay so easy!,5.0,POSITIVE,joy,,,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",
+69,:),5.0,POSITIVE,trust,,,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",
+70,10/10,5.0,POSITIVE,trust,,,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",
+71,Perfect for a birthday 🎂,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 8, ""disgust"": 0, ""fear"": 0, ""joy"": 7, ""sadness"": 0, ""surprise"": 5, ""trust"": 3}",perfect birthday gift gift good gift happy mail
+72,Perfect!,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 4, ""disgust"": 0, ""fear"": 0, ""joy"": 3, ""sadness"": 0, ""surprise"": 1, ""trust"": 2}",perfect gift happy time
+73,Gift box nice!,5.0,POSITIVE,joy,joy,True,"{""anger"": 0, ""anticipation"": 3, ""disgust"": 0, ""fear"": 0, ""joy"": 4, ""sadness"": 0, ""surprise"": 3, ""trust"": 0}",gift love gift gift
+74,It was soooo easy,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 1, ""trust"": 1}",present
+75,great,5.0,POSITIVE,joy,,,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",
+76,Amazon Thinks of Everything!,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 0, ""trust"": 1}",happy
+77,Amazon lover giftee?  Buy it!,5.0,POSITIVE,joy,joy,True,"{""anger"": 1, ""anticipation"": 3, ""disgust"": 0, ""fear"": 0, ""joy"": 4, ""sadness"": 0, ""surprise"": 2, ""trust"": 1}",lover gift fee gift love
+78,Timing,5.0,POSITIVE,trust,,,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",
+79,Was easy to do,5.0,POSITIVE,trust,,,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",
+80,PENGUINS,5.0,POSITIVE,joy,,,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",
+81,Believe this is the best gift to give !,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 1, ""surprise"": 2, ""trust"": 0}",gift recipient chance mistake
+82,convenient,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 1, ""trust"": 0}",gift
+83,Five Stars,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 1, ""trust"": 1}",gift pretty
+84,Best gift for someone you don’t know what to get,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 1}",gift don gift
+85,Great value,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 2, ""trust"": 2}",shopping good
+86,Sweet gift!,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 4, ""disgust"": 0, ""fear"": 0, ""joy"": 4, ""sadness"": 0, ""surprise"": 3, ""trust"": 3}",sweet gift brother gift pretty
+87,Amazing,5.0,POSITIVE,trust,,,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",
+88,Great Holder,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 1, ""disgust"": 0, ""fear"": 0, ""joy"": 1, ""sadness"": 0, ""surprise"": 1, ""trust"": 0}",gift
+89,Gift card,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 1, ""trust"": 0}",gift holiday
+90,Starbuck gift card,5.0,POSITIVE,joy,joy,True,"{""anger"": 0, ""anticipation"": 3, ""disgust"": 0, ""fear"": 0, ""joy"": 4, ""sadness"": 0, ""surprise"": 2, ""trust"": 1}",gift friend gift holiday
+91,Good litte thank-you gifts,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 1, ""anticipation"": 4, ""disgust"": 0, ""fear"": 1, ""joy"": 4, ""sadness"": 0, ""surprise"": 3, ""trust"": 4}",good happy mail surprise money recommend
+92,Okay as a gift,3.0,NEGATIVE,sadness,anticipation,False,"{""anger"": 1, ""anticipation"": 4, ""disgust"": 0, ""fear"": 0, ""joy"": 3, ""sadness"": 0, ""surprise"": 3, ""trust"": 1}",gift gift money wait
+93,Good gift,5.0,POSITIVE,trust,joy,False,"{""anger"": 0, ""anticipation"": 3, ""disgust"": 0, ""fear"": 0, ""joy"": 4, ""sadness"": 0, ""surprise"": 3, ""trust"": 3}",good gift favorite gift recommend
+94,So convenient.,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 1, ""anticipation"": 4, ""disgust"": 0, ""fear"": 0, ""joy"": 3, ""sadness"": 0, ""surprise"": 2, ""trust"": 1}",time perfect receiving gift fits
+95,Just what was ordered.,5.0,POSITIVE,trust,anticipation,False,"{""anger"": 0, ""anticipation"": 2, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 1, ""trust"": 1}",holiday shopping
+96,Can Do It From Home,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 9, ""disgust"": 0, ""fear"": 0, ""joy"": 7, ""sadness"": 1, ""surprise"": 7, ""trust"": 2}",gift birthday gift store gift store gift gift manage leave comfort
+97,Love it!,5.0,POSITIVE,joy,joy,True,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 2, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",love love
+98,Easy to use,5.0,POSITIVE,trust,,,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",
+99,Easy to use,3.0,POSITIVE,trust,,,"{""anger"": 0, ""anticipation"": 0, ""disgust"": 0, ""fear"": 0, ""joy"": 0, ""sadness"": 0, ""surprise"": 0, ""trust"": 0}",
+100,Perfect gift sent I a lovely container,5.0,POSITIVE,joy,anticipation,False,"{""anger"": 0, ""anticipation"": 4, ""disgust"": 0, ""fear"": 0, ""joy"": 4, ""sadness"": 2, ""surprise"": 3, ""trust"": 3}",perfect gift lovely lovely

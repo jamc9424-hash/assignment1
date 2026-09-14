@@ -1,0 +1,20 @@
+{
+  "n": 100,
+  "source": "evaluation/gift-cards-batch-100/scored_reviews.csv",
+  "lexicon_file": "data\\NRC-emotion-lexicon-wordlevel-alphabetized-v0.92.txt",
+  "lexicon_sha256": "1388a6c85e4fd8f96778e2f35ebd6bf4e761e0fbd131f3f3290bc716f0cb9ebe",
+  "lexicon_loader": "emotion_lexicon.load_nrc_lexicon",
+  "tokenizer": "[A-Za-z]+(?:['-][A-Za-z]+)?",
+  "counting": "Each matching title/text token adds one point to every associated NRC emotion; ties use EMOTIONS order; zero matches returns null.",
+  "llm_inputs": "Four files contain only id, title, text; ratings and rating-derived labels excluded.",
+  "emotions": [
+    "anger",
+    "anticipation",
+    "disgust",
+    "fear",
+    "joy",
+    "sadness",
+    "surprise",
+    "trust"
+  ]
+}

@@ -39,6 +39,24 @@ class PromptTests(unittest.TestCase):
         with self.assertRaises(TypeError):
             sentiment_prompt.parse_sentiment(None)
 
+    def test_builds_sentiment_and_emotion_output_contract(self):
+        import sentiment_prompt
+        messages = sentiment_prompt.build_sentiment_emotion_messages('Great gift', 'It worked perfectly.')
+        self.assertEqual([m['role'] for m in messages], ['system', 'user'])
+        self.assertIn('emotion', messages[0]['content'])
+        self.assertEqual(sentiment_prompt.parse_sentiment_emotion('{"sentiment":"POSITIVE","emotion":"joy"}'),
+                         {'sentiment': 'POSITIVE', 'emotion': 'joy'})
+        with self.assertRaises(ValueError):
+            sentiment_prompt.parse_sentiment_emotion('{"sentiment":"POSITIVE","emotion":"calm"}')
+
+    def test_parse_emotion_rejects_extra_or_malformed_output(self):
+        import sentiment_prompt
+        for value in ('{}', '{"sentiment":"POSITIVE"}',
+                      '{"sentiment":"POSITIVE","emotion":"joy","why":"x"}',
+                      'POSITIVE, joy'):
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                sentiment_prompt.parse_sentiment_emotion(value)
+
 
 if __name__ == '__main__':
     unittest.main()

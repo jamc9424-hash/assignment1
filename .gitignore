@@ -4,5 +4,7 @@ __pycache__/
 .env
 .env.*
 data/
+!data/
+!data/NRC-emotion-lexicon-wordlevel-alphabetized-v0.92.txt
 *.jsonl
 *.jsonl.gz

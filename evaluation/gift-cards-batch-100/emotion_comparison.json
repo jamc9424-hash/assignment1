@@ -1,0 +1,2062 @@
+{
+  "n": 100,
+  "llm_predictions": 100,
+  "lexicon_predictions": 100,
+  "lexicon_no_match": 15,
+  "compared_n": 85,
+  "agreement_count": 19,
+  "disagreement_count": 66,
+  "agreement_rate": 0.2235,
+  "agreement_rate_all_rows_treating_no_match_as_disagreement": 0.19,
+  "llm_distribution": {
+    "joy": 48,
+    "anger": 4,
+    "trust": 42,
+    "sadness": 2,
+    "surprise": 2,
+    "anticipation": 1,
+    "disgust": 1
+  },
+  "lexicon_distribution_including_no_match": {
+    "anticipation": 59,
+    "joy": 21,
+    "no_match": 15,
+    "sadness": 1,
+    "anger": 2,
+    "trust": 1,
+    "disgust": 1
+  },
+  "confusion_matrix_llm_rows_lexicon_columns": {
+    "anger": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 1,
+      "surprise": 0,
+      "trust": 1
+    },
+    "anticipation": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "disgust": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "fear": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "joy": {
+      "anger": 1,
+      "anticipation": 25,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 18,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "sadness": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "surprise": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "trust": {
+      "anger": 1,
+      "anticipation": 28,
+      "disgust": 1,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    }
+  },
+  "by_emotion": {
+    "anger": {
+      "llm_count": 4,
+      "lexicon_count": 2,
+      "compared_count": 4,
+      "agreements": 0,
+      "agreement_rate": 0.0
+    },
+    "anticipation": {
+      "llm_count": 1,
+      "lexicon_count": 59,
+      "compared_count": 1,
+      "agreements": 1,
+      "agreement_rate": 1.0
+    },
+    "disgust": {
+      "llm_count": 1,
+      "lexicon_count": 1,
+      "compared_count": 1,
+      "agreements": 0,
+      "agreement_rate": 0.0
+    },
+    "fear": {
+      "llm_count": 0,
+      "lexicon_count": 0,
+      "compared_count": 0,
+      "agreements": 0,
+      "agreement_rate": null
+    },
+    "joy": {
+      "llm_count": 48,
+      "lexicon_count": 21,
+      "compared_count": 44,
+      "agreements": 18,
+      "agreement_rate": 0.4091
+    },
+    "sadness": {
+      "llm_count": 2,
+      "lexicon_count": 1,
+      "compared_count": 2,
+      "agreements": 0,
+      "agreement_rate": 0.0
+    },
+    "surprise": {
+      "llm_count": 2,
+      "lexicon_count": 0,
+      "compared_count": 2,
+      "agreements": 0,
+      "agreement_rate": 0.0
+    },
+    "trust": {
+      "llm_count": 42,
+      "lexicon_count": 1,
+      "compared_count": 31,
+      "agreements": 0,
+      "agreement_rate": 0.0
+    }
+  },
+  "disagreements": [
+    {
+      "id": 1,
+      "title": "Great gift",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 3,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 3,
+        "sadness": 0,
+        "surprise": 3,
+        "trust": 2
+      },
+      "matched_words": [
+        "gift",
+        "money",
+        "good"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 4,
+      "title": "Nice looking",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 8,
+        "disgust": 0,
+        "fear": 1,
+        "joy": 8,
+        "sadness": 1,
+        "surprise": 3,
+        "trust": 4
+      },
+      "matched_words": [
+        "pretty",
+        "pretty",
+        "ribbon",
+        "perfect",
+        "love",
+        "shopping",
+        "ship",
+        "gift",
+        "case",
+        "gift"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 5,
+      "title": "Not $10 Gift Cards",
+      "rating": 1.0,
+      "sentiment": "NEGATIVE",
+      "llm_emotion": "anger",
+      "lexicon_emotion": "joy",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 5,
+        "disgust": 0,
+        "fear": 1,
+        "joy": 8,
+        "sadness": 1,
+        "surprise": 5,
+        "trust": 3
+      },
+      "matched_words": [
+        "gift",
+        "gift",
+        "daughter",
+        "daughter",
+        "cashier",
+        "forgotten",
+        "gift",
+        "found",
+        "receiving",
+        "gift",
+        "cover"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 7,
+      "title": "Easy gift",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift",
+        "gift"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 8,
+      "title": "Great gift",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 10,
+      "title": "Great for saying “thank you” to the mail person, farrier, yard man,etc",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [
+        "mail"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 12,
+      "title": "Giftcard",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 3,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 3,
+        "sadness": 0,
+        "surprise": 3,
+        "trust": 1
+      },
+      "matched_words": [
+        "gift",
+        "good",
+        "gift"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 13,
+      "title": "Simple giftcard!",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 1
+      },
+      "matched_words": [
+        "gift",
+        "money"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 14,
+      "title": "Great giftcard",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 15,
+      "title": "Easy..",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 1
+      },
+      "matched_words": [
+        "shopping"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 16,
+      "title": "One Star",
+      "rating": 1.0,
+      "sentiment": "NEGATIVE",
+      "llm_emotion": "anger",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 1
+      },
+      "matched_words": [
+        "star"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 17,
+      "title": "Great Product.",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift",
+        "recipient"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 18,
+      "title": "No note attached to sent gift card",
+      "rating": 5.0,
+      "sentiment": "NEGATIVE",
+      "llm_emotion": "sadness",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 8,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 4,
+        "sadness": 0,
+        "surprise": 3,
+        "trust": 1
+      },
+      "matched_words": [
+        "gift",
+        "pretty",
+        "gift",
+        "recipient",
+        "complaint",
+        "time",
+        "recipient",
+        "gift",
+        "mail"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 19,
+      "title": "Gift card",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 1
+      },
+      "matched_words": [
+        "gift",
+        "perfect"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 20,
+      "title": "Good",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 3,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 3,
+        "sadness": 0,
+        "surprise": 3,
+        "trust": 2
+      },
+      "matched_words": [
+        "good",
+        "good",
+        "gift"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 21,
+      "title": "Good Product",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 2
+      },
+      "matched_words": [
+        "good",
+        "good"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 22,
+      "title": "Good Product",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 2
+      },
+      "matched_words": [
+        "good",
+        "good"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 23,
+      "title": "Good Product",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 2
+      },
+      "matched_words": [
+        "good",
+        "good"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 24,
+      "title": "Good Product",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 2
+      },
+      "matched_words": [
+        "good",
+        "good"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 25,
+      "title": "Good Product",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 2
+      },
+      "matched_words": [
+        "good",
+        "good"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 26,
+      "title": "Good product",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 2
+      },
+      "matched_words": [
+        "good",
+        "good"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 27,
+      "title": "Good product",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 2
+      },
+      "matched_words": [
+        "good",
+        "good"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 28,
+      "title": "Good Product",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 2
+      },
+      "matched_words": [
+        "good",
+        "good"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 29,
+      "title": "Good Product",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 2
+      },
+      "matched_words": [
+        "good",
+        "good"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 30,
+      "title": "Good",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 2
+      },
+      "matched_words": [
+        "good",
+        "good"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 31,
+      "title": "Gift card",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 1
+      },
+      "matched_words": [
+        "gift",
+        "perfect"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 33,
+      "title": "Mistake",
+      "rating": 2.0,
+      "sentiment": "NEGATIVE",
+      "llm_emotion": "anger",
+      "lexicon_emotion": "sadness",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 2,
+        "surprise": 0,
+        "trust": 1
+      },
+      "matched_words": [
+        "mistake",
+        "hit",
+        "mistake",
+        "credit"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 34,
+      "title": "Great gift idea",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 36,
+      "title": "Birthday surprise!",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "surprise",
+      "lexicon_emotion": "joy",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 3,
+        "disgust": 0,
+        "fear": 2,
+        "joy": 5,
+        "sadness": 0,
+        "surprise": 5,
+        "trust": 1
+      },
+      "matched_words": [
+        "birthday",
+        "surprise",
+        "good",
+        "birthday",
+        "surprise"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 37,
+      "title": "Birthday Gift",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 5,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 5,
+        "sadness": 0,
+        "surprise": 4,
+        "trust": 0
+      },
+      "matched_words": [
+        "birthday",
+        "gift",
+        "holiday",
+        "birthday",
+        "receiving"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 38,
+      "title": "Fun",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [
+        "fun"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 39,
+      "title": "Reload is super easy.",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "ready",
+        "gift"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 40,
+      "title": "Convenience of giftabiliy.",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 41,
+      "title": "Great Gift Package",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift",
+        "gift"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 42,
+      "title": "Grest Sandwitches !!",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 1
+      },
+      "matched_words": [
+        "perfect"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 43,
+      "title": "GOOD PIZZA !!",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 2
+      },
+      "matched_words": [
+        "good",
+        "perfect"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 44,
+      "title": "We like this Store and they stock Tons of different Items for all kinds of Pets",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [
+        "store",
+        "love"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 45,
+      "title": "Money was loaded on card",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anger",
+      "lexicon_scores": {
+        "anger": 2,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 2
+      },
+      "matched_words": [
+        "money",
+        "money"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 48,
+      "title": "Five Stars",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anger",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift",
+        "hit"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 52,
+      "title": "The added value was great, but no more",
+      "rating": 1.0,
+      "sentiment": "NEGATIVE",
+      "llm_emotion": "disgust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 3,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 1
+      },
+      "matched_words": [
+        "gift",
+        "monetary",
+        "cheer"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 57,
+      "title": "As described.",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift",
+        "time"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 60,
+      "title": "Easy to send to an Amazon shopper",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift",
+        "gift",
+        "fee"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 61,
+      "title": "Rec'd promo from Amazon when reloading gift card.",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "surprise",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 4,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 4,
+        "sadness": 0,
+        "surprise": 4,
+        "trust": 1
+      },
+      "matched_words": [
+        "gift",
+        "bonus",
+        "gift",
+        "gift",
+        "account"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 62,
+      "title": "Saves a Little Over time.",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 1
+      },
+      "matched_words": [
+        "time",
+        "save",
+        "gift"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 63,
+      "title": "What a great company",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 64,
+      "title": "A problem to use at drive thru's",
+      "rating": 1.0,
+      "sentiment": "NEGATIVE",
+      "llm_emotion": "anger",
+      "lexicon_emotion": "trust",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 3,
+        "disgust": 0,
+        "fear": 2,
+        "joy": 2,
+        "sadness": 2,
+        "surprise": 1,
+        "trust": 5
+      },
+      "matched_words": [
+        "problem",
+        "time",
+        "difficult",
+        "credit",
+        "gift",
+        "transaction",
+        "lost",
+        "provide",
+        "happy",
+        "credit"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 66,
+      "title": "Nice to have",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "disgust",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 1,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 1,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [
+        "guilt"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 71,
+      "title": "Perfect for a birthday 🎂",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 8,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 7,
+        "sadness": 0,
+        "surprise": 5,
+        "trust": 3
+      },
+      "matched_words": [
+        "perfect",
+        "birthday",
+        "gift",
+        "gift",
+        "good",
+        "gift",
+        "happy",
+        "mail"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 72,
+      "title": "Perfect!",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 4,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 3,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 2
+      },
+      "matched_words": [
+        "perfect",
+        "gift",
+        "happy",
+        "time"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 74,
+      "title": "It was soooo easy",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 1
+      },
+      "matched_words": [
+        "present"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 76,
+      "title": "Amazon Thinks of Everything!",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 1
+      },
+      "matched_words": [
+        "happy"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 81,
+      "title": "Believe this is the best gift to give !",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 1,
+        "surprise": 2,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift",
+        "recipient",
+        "chance",
+        "mistake"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 82,
+      "title": "convenient",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 83,
+      "title": "Five Stars",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 1
+      },
+      "matched_words": [
+        "gift",
+        "pretty"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 84,
+      "title": "Best gift for someone you don’t know what to get",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 1
+      },
+      "matched_words": [
+        "gift",
+        "don",
+        "gift"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 85,
+      "title": "Great value",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 2
+      },
+      "matched_words": [
+        "shopping",
+        "good"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 86,
+      "title": "Sweet gift!",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 4,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 4,
+        "sadness": 0,
+        "surprise": 3,
+        "trust": 3
+      },
+      "matched_words": [
+        "sweet",
+        "gift",
+        "brother",
+        "gift",
+        "pretty"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 88,
+      "title": "Great Holder",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 89,
+      "title": "Gift card",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift",
+        "holiday"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 91,
+      "title": "Good litte thank-you gifts",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 4,
+        "disgust": 0,
+        "fear": 1,
+        "joy": 4,
+        "sadness": 0,
+        "surprise": 3,
+        "trust": 4
+      },
+      "matched_words": [
+        "good",
+        "happy",
+        "mail",
+        "surprise",
+        "money",
+        "recommend"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 92,
+      "title": "Okay as a gift",
+      "rating": 3.0,
+      "sentiment": "NEGATIVE",
+      "llm_emotion": "sadness",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 4,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 3,
+        "sadness": 0,
+        "surprise": 3,
+        "trust": 1
+      },
+      "matched_words": [
+        "gift",
+        "gift",
+        "money",
+        "wait"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 93,
+      "title": "Good gift",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "joy",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 3,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 4,
+        "sadness": 0,
+        "surprise": 3,
+        "trust": 3
+      },
+      "matched_words": [
+        "good",
+        "gift",
+        "favorite",
+        "gift",
+        "recommend"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 94,
+      "title": "So convenient.",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 4,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 3,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 1
+      },
+      "matched_words": [
+        "time",
+        "perfect",
+        "receiving",
+        "gift",
+        "fits"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 95,
+      "title": "Just what was ordered.",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 1
+      },
+      "matched_words": [
+        "holiday",
+        "shopping"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 96,
+      "title": "Can Do It From Home",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 9,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 7,
+        "sadness": 1,
+        "surprise": 7,
+        "trust": 2
+      },
+      "matched_words": [
+        "gift",
+        "birthday",
+        "gift",
+        "store",
+        "gift",
+        "store",
+        "gift",
+        "gift",
+        "manage",
+        "leave",
+        "comfort"
+      ],
+      "emotion_agreement": false
+    },
+    {
+      "id": 100,
+      "title": "Perfect gift sent I a lovely container",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 4,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 4,
+        "sadness": 2,
+        "surprise": 3,
+        "trust": 3
+      },
+      "matched_words": [
+        "perfect",
+        "gift",
+        "lovely",
+        "lovely"
+      ],
+      "emotion_agreement": false
+    }
+  ],
+  "no_match_examples": [
+    {
+      "id": 32,
+      "title": "So easy",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null
+    },
+    {
+      "id": 35,
+      "title": "Secure",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null
+    },
+    {
+      "id": 46,
+      "title": "👍",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null
+    },
+    {
+      "id": 50,
+      "title": "Reccomend",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null
+    },
+    {
+      "id": 56,
+      "title": "Five Stars",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null
+    },
+    {
+      "id": 68,
+      "title": "Yay so easy!",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null
+    },
+    {
+      "id": 69,
+      "title": ":)",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null
+    },
+    {
+      "id": 70,
+      "title": "10/10",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null
+    },
+    {
+      "id": 75,
+      "title": "great",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null
+    },
+    {
+      "id": 78,
+      "title": "Timing",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null
+    },
+    {
+      "id": 79,
+      "title": "Was easy to do",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null
+    },
+    {
+      "id": 80,
+      "title": "PENGUINS",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "joy",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null
+    },
+    {
+      "id": 87,
+      "title": "Amazing",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null
+    },
+    {
+      "id": 98,
+      "title": "Easy to use",
+      "rating": 5.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null
+    },
+    {
+      "id": 99,
+      "title": "Easy to use",
+      "rating": 3.0,
+      "sentiment": "POSITIVE",
+      "llm_emotion": "trust",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null
+    }
+  ]
+}

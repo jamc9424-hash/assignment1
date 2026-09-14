@@ -1,0 +1,1879 @@
+[
+  {
+    "id": 1,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 1,
+      "anticipation": 3,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 3,
+      "sadness": 0,
+      "surprise": 3,
+      "trust": 2
+    },
+    "matched_words": [
+      "gift",
+      "money",
+      "good"
+    ]
+  },
+  {
+    "id": 2,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 1,
+      "anticipation": 6,
+      "disgust": 1,
+      "fear": 0,
+      "joy": 7,
+      "sadness": 2,
+      "surprise": 4,
+      "trust": 3
+    },
+    "matched_words": [
+      "gift",
+      "perfect",
+      "gift",
+      "disappointed",
+      "excited",
+      "perfect",
+      "late",
+      "birthday",
+      "baby"
+    ]
+  },
+  {
+    "id": 3,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 5,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 7,
+      "sadness": 0,
+      "surprise": 4,
+      "trust": 1
+    },
+    "matched_words": [
+      "perfect",
+      "gift",
+      "gift",
+      "hobby",
+      "gift",
+      "gift",
+      "glee"
+    ]
+  },
+  {
+    "id": 4,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 1,
+      "anticipation": 8,
+      "disgust": 0,
+      "fear": 1,
+      "joy": 8,
+      "sadness": 1,
+      "surprise": 3,
+      "trust": 4
+    },
+    "matched_words": [
+      "pretty",
+      "pretty",
+      "ribbon",
+      "perfect",
+      "love",
+      "shopping",
+      "ship",
+      "gift",
+      "case",
+      "gift"
+    ]
+  },
+  {
+    "id": 5,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 5,
+      "disgust": 0,
+      "fear": 1,
+      "joy": 8,
+      "sadness": 1,
+      "surprise": 5,
+      "trust": 3
+    },
+    "matched_words": [
+      "gift",
+      "gift",
+      "daughter",
+      "daughter",
+      "cashier",
+      "forgotten",
+      "gift",
+      "found",
+      "receiving",
+      "gift",
+      "cover"
+    ]
+  },
+  {
+    "id": 6,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": [
+      "adorable"
+    ]
+  },
+  {
+    "id": 7,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift",
+      "gift"
+    ]
+  },
+  {
+    "id": 8,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift"
+    ]
+  },
+  {
+    "id": 9,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": [
+      "love"
+    ]
+  },
+  {
+    "id": 10,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": [
+      "mail"
+    ]
+  },
+  {
+    "id": 11,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 5,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 6,
+      "sadness": 0,
+      "surprise": 3,
+      "trust": 3
+    },
+    "matched_words": [
+      "safe",
+      "perfect",
+      "gift",
+      "gift",
+      "perfect",
+      "gift"
+    ]
+  },
+  {
+    "id": 12,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 3,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 3,
+      "sadness": 0,
+      "surprise": 3,
+      "trust": 1
+    },
+    "matched_words": [
+      "gift",
+      "good",
+      "gift"
+    ]
+  },
+  {
+    "id": 13,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 1,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 1
+    },
+    "matched_words": [
+      "gift",
+      "money"
+    ]
+  },
+  {
+    "id": 14,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift"
+    ]
+  },
+  {
+    "id": 15,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 1
+    },
+    "matched_words": [
+      "shopping"
+    ]
+  },
+  {
+    "id": 16,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 1
+    },
+    "matched_words": [
+      "star"
+    ]
+  },
+  {
+    "id": 17,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift",
+      "recipient"
+    ]
+  },
+  {
+    "id": 18,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 1,
+      "anticipation": 8,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 4,
+      "sadness": 0,
+      "surprise": 3,
+      "trust": 1
+    },
+    "matched_words": [
+      "gift",
+      "pretty",
+      "gift",
+      "recipient",
+      "complaint",
+      "time",
+      "recipient",
+      "gift",
+      "mail"
+    ]
+  },
+  {
+    "id": 19,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 1
+    },
+    "matched_words": [
+      "gift",
+      "perfect"
+    ]
+  },
+  {
+    "id": 20,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 3,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 3,
+      "sadness": 0,
+      "surprise": 3,
+      "trust": 2
+    },
+    "matched_words": [
+      "good",
+      "good",
+      "gift"
+    ]
+  },
+  {
+    "id": 21,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 2
+    },
+    "matched_words": [
+      "good",
+      "good"
+    ]
+  },
+  {
+    "id": 22,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 2
+    },
+    "matched_words": [
+      "good",
+      "good"
+    ]
+  },
+  {
+    "id": 23,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 2
+    },
+    "matched_words": [
+      "good",
+      "good"
+    ]
+  },
+  {
+    "id": 24,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 2
+    },
+    "matched_words": [
+      "good",
+      "good"
+    ]
+  },
+  {
+    "id": 25,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 2
+    },
+    "matched_words": [
+      "good",
+      "good"
+    ]
+  },
+  {
+    "id": 26,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 2
+    },
+    "matched_words": [
+      "good",
+      "good"
+    ]
+  },
+  {
+    "id": 27,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 2
+    },
+    "matched_words": [
+      "good",
+      "good"
+    ]
+  },
+  {
+    "id": 28,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 2
+    },
+    "matched_words": [
+      "good",
+      "good"
+    ]
+  },
+  {
+    "id": 29,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 2
+    },
+    "matched_words": [
+      "good",
+      "good"
+    ]
+  },
+  {
+    "id": 30,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 2
+    },
+    "matched_words": [
+      "good",
+      "good"
+    ]
+  },
+  {
+    "id": 31,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 1
+    },
+    "matched_words": [
+      "gift",
+      "perfect"
+    ]
+  },
+  {
+    "id": 32,
+    "lexicon_emotion": null,
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": []
+  },
+  {
+    "id": 33,
+    "lexicon_emotion": "sadness",
+    "lexicon_scores": {
+      "anger": 1,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 2,
+      "surprise": 0,
+      "trust": 1
+    },
+    "matched_words": [
+      "mistake",
+      "hit",
+      "mistake",
+      "credit"
+    ]
+  },
+  {
+    "id": 34,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift"
+    ]
+  },
+  {
+    "id": 35,
+    "lexicon_emotion": null,
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": []
+  },
+  {
+    "id": 36,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 3,
+      "disgust": 0,
+      "fear": 2,
+      "joy": 5,
+      "sadness": 0,
+      "surprise": 5,
+      "trust": 1
+    },
+    "matched_words": [
+      "birthday",
+      "surprise",
+      "good",
+      "birthday",
+      "surprise"
+    ]
+  },
+  {
+    "id": 37,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 5,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 5,
+      "sadness": 0,
+      "surprise": 4,
+      "trust": 0
+    },
+    "matched_words": [
+      "birthday",
+      "gift",
+      "holiday",
+      "birthday",
+      "receiving"
+    ]
+  },
+  {
+    "id": 38,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": [
+      "fun"
+    ]
+  },
+  {
+    "id": 39,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 0
+    },
+    "matched_words": [
+      "ready",
+      "gift"
+    ]
+  },
+  {
+    "id": 40,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift"
+    ]
+  },
+  {
+    "id": 41,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift",
+      "gift"
+    ]
+  },
+  {
+    "id": 42,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 1
+    },
+    "matched_words": [
+      "perfect"
+    ]
+  },
+  {
+    "id": 43,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 2
+    },
+    "matched_words": [
+      "good",
+      "perfect"
+    ]
+  },
+  {
+    "id": 44,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": [
+      "store",
+      "love"
+    ]
+  },
+  {
+    "id": 45,
+    "lexicon_emotion": "anger",
+    "lexicon_scores": {
+      "anger": 2,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 2
+    },
+    "matched_words": [
+      "money",
+      "money"
+    ]
+  },
+  {
+    "id": 46,
+    "lexicon_emotion": null,
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": []
+  },
+  {
+    "id": 47,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 1
+    },
+    "matched_words": [
+      "love",
+      "gift",
+      "show"
+    ]
+  },
+  {
+    "id": 48,
+    "lexicon_emotion": "anger",
+    "lexicon_scores": {
+      "anger": 1,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift",
+      "hit"
+    ]
+  },
+  {
+    "id": 49,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 3,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 4,
+      "sadness": 0,
+      "surprise": 3,
+      "trust": 2
+    },
+    "matched_words": [
+      "gift",
+      "gift",
+      "gift",
+      "kind",
+      "recommend"
+    ]
+  },
+  {
+    "id": 50,
+    "lexicon_emotion": null,
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": []
+  },
+  {
+    "id": 51,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 5,
+      "disgust": 0,
+      "fear": 1,
+      "joy": 5,
+      "sadness": 0,
+      "surprise": 5,
+      "trust": 2
+    },
+    "matched_words": [
+      "surprise",
+      "gift",
+      "anticipation",
+      "birthday",
+      "present",
+      "good"
+    ]
+  },
+  {
+    "id": 52,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 3,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 1
+    },
+    "matched_words": [
+      "gift",
+      "monetary",
+      "cheer"
+    ]
+  },
+  {
+    "id": 53,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 5,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 6,
+      "sadness": 0,
+      "surprise": 4,
+      "trust": 3
+    },
+    "matched_words": [
+      "perfect",
+      "gift",
+      "gift",
+      "good",
+      "food",
+      "gift"
+    ]
+  },
+  {
+    "id": 54,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 1,
+      "anticipation": 4,
+      "disgust": 1,
+      "fear": 1,
+      "joy": 6,
+      "sadness": 1,
+      "surprise": 4,
+      "trust": 3
+    },
+    "matched_words": [
+      "appreciation",
+      "gift",
+      "gift",
+      "treat",
+      "gift",
+      "content"
+    ]
+  },
+  {
+    "id": 55,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 0
+    },
+    "matched_words": [
+      "love",
+      "gift"
+    ]
+  },
+  {
+    "id": 56,
+    "lexicon_emotion": null,
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": []
+  },
+  {
+    "id": 57,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift",
+      "time"
+    ]
+  },
+  {
+    "id": 58,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 3,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 6,
+      "sadness": 0,
+      "surprise": 3,
+      "trust": 2
+    },
+    "matched_words": [
+      "perfect",
+      "gift",
+      "love",
+      "love",
+      "wonderful",
+      "gift"
+    ]
+  },
+  {
+    "id": 59,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 3,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 4,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 1
+    },
+    "matched_words": [
+      "daughter",
+      "gift",
+      "perfect",
+      "gift"
+    ]
+  },
+  {
+    "id": 60,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 1,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift",
+      "gift",
+      "fee"
+    ]
+  },
+  {
+    "id": 61,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 4,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 4,
+      "sadness": 0,
+      "surprise": 4,
+      "trust": 1
+    },
+    "matched_words": [
+      "gift",
+      "bonus",
+      "gift",
+      "gift",
+      "account"
+    ]
+  },
+  {
+    "id": 62,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 1
+    },
+    "matched_words": [
+      "time",
+      "save",
+      "gift"
+    ]
+  },
+  {
+    "id": 63,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift"
+    ]
+  },
+  {
+    "id": 64,
+    "lexicon_emotion": "trust",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 3,
+      "disgust": 0,
+      "fear": 2,
+      "joy": 2,
+      "sadness": 2,
+      "surprise": 1,
+      "trust": 5
+    },
+    "matched_words": [
+      "problem",
+      "time",
+      "difficult",
+      "credit",
+      "gift",
+      "transaction",
+      "lost",
+      "provide",
+      "happy",
+      "credit"
+    ]
+  },
+  {
+    "id": 65,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 6,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 7,
+      "sadness": 0,
+      "surprise": 5,
+      "trust": 3
+    },
+    "matched_words": [
+      "gift",
+      "gift",
+      "good",
+      "secret",
+      "gift",
+      "love",
+      "happy",
+      "birthday"
+    ]
+  },
+  {
+    "id": 66,
+    "lexicon_emotion": "disgust",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 1,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 1,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": [
+      "guilt"
+    ]
+  },
+  {
+    "id": 67,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 3,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 4,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 2
+    },
+    "matched_words": [
+      "excellent",
+      "gift",
+      "gift",
+      "happy"
+    ]
+  },
+  {
+    "id": 68,
+    "lexicon_emotion": null,
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": []
+  },
+  {
+    "id": 69,
+    "lexicon_emotion": null,
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": []
+  },
+  {
+    "id": 70,
+    "lexicon_emotion": null,
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": []
+  },
+  {
+    "id": 71,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 8,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 7,
+      "sadness": 0,
+      "surprise": 5,
+      "trust": 3
+    },
+    "matched_words": [
+      "perfect",
+      "birthday",
+      "gift",
+      "gift",
+      "good",
+      "gift",
+      "happy",
+      "mail"
+    ]
+  },
+  {
+    "id": 72,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 4,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 3,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 2
+    },
+    "matched_words": [
+      "perfect",
+      "gift",
+      "happy",
+      "time"
+    ]
+  },
+  {
+    "id": 73,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 3,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 4,
+      "sadness": 0,
+      "surprise": 3,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift",
+      "love",
+      "gift",
+      "gift"
+    ]
+  },
+  {
+    "id": 74,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 1
+    },
+    "matched_words": [
+      "present"
+    ]
+  },
+  {
+    "id": 75,
+    "lexicon_emotion": null,
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": []
+  },
+  {
+    "id": 76,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 1
+    },
+    "matched_words": [
+      "happy"
+    ]
+  },
+  {
+    "id": 77,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 1,
+      "anticipation": 3,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 4,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 1
+    },
+    "matched_words": [
+      "lover",
+      "gift",
+      "fee",
+      "gift",
+      "love"
+    ]
+  },
+  {
+    "id": 78,
+    "lexicon_emotion": null,
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": []
+  },
+  {
+    "id": 79,
+    "lexicon_emotion": null,
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": []
+  },
+  {
+    "id": 80,
+    "lexicon_emotion": null,
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": []
+  },
+  {
+    "id": 81,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 1,
+      "surprise": 2,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift",
+      "recipient",
+      "chance",
+      "mistake"
+    ]
+  },
+  {
+    "id": 82,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift"
+    ]
+  },
+  {
+    "id": 83,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 1
+    },
+    "matched_words": [
+      "gift",
+      "pretty"
+    ]
+  },
+  {
+    "id": 84,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 1
+    },
+    "matched_words": [
+      "gift",
+      "don",
+      "gift"
+    ]
+  },
+  {
+    "id": 85,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 2
+    },
+    "matched_words": [
+      "shopping",
+      "good"
+    ]
+  },
+  {
+    "id": 86,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 4,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 4,
+      "sadness": 0,
+      "surprise": 3,
+      "trust": 3
+    },
+    "matched_words": [
+      "sweet",
+      "gift",
+      "brother",
+      "gift",
+      "pretty"
+    ]
+  },
+  {
+    "id": 87,
+    "lexicon_emotion": null,
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": []
+  },
+  {
+    "id": 88,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift"
+    ]
+  },
+  {
+    "id": 89,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 0
+    },
+    "matched_words": [
+      "gift",
+      "holiday"
+    ]
+  },
+  {
+    "id": 90,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 3,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 4,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 1
+    },
+    "matched_words": [
+      "gift",
+      "friend",
+      "gift",
+      "holiday"
+    ]
+  },
+  {
+    "id": 91,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 1,
+      "anticipation": 4,
+      "disgust": 0,
+      "fear": 1,
+      "joy": 4,
+      "sadness": 0,
+      "surprise": 3,
+      "trust": 4
+    },
+    "matched_words": [
+      "good",
+      "happy",
+      "mail",
+      "surprise",
+      "money",
+      "recommend"
+    ]
+  },
+  {
+    "id": 92,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 1,
+      "anticipation": 4,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 3,
+      "sadness": 0,
+      "surprise": 3,
+      "trust": 1
+    },
+    "matched_words": [
+      "gift",
+      "gift",
+      "money",
+      "wait"
+    ]
+  },
+  {
+    "id": 93,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 3,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 4,
+      "sadness": 0,
+      "surprise": 3,
+      "trust": 3
+    },
+    "matched_words": [
+      "good",
+      "gift",
+      "favorite",
+      "gift",
+      "recommend"
+    ]
+  },
+  {
+    "id": 94,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 1,
+      "anticipation": 4,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 3,
+      "sadness": 0,
+      "surprise": 2,
+      "trust": 1
+    },
+    "matched_words": [
+      "time",
+      "perfect",
+      "receiving",
+      "gift",
+      "fits"
+    ]
+  },
+  {
+    "id": 95,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 2,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 1
+    },
+    "matched_words": [
+      "holiday",
+      "shopping"
+    ]
+  },
+  {
+    "id": 96,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 9,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 7,
+      "sadness": 1,
+      "surprise": 7,
+      "trust": 2
+    },
+    "matched_words": [
+      "gift",
+      "birthday",
+      "gift",
+      "store",
+      "gift",
+      "store",
+      "gift",
+      "gift",
+      "manage",
+      "leave",
+      "comfort"
+    ]
+  },
+  {
+    "id": 97,
+    "lexicon_emotion": "joy",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": [
+      "love",
+      "love"
+    ]
+  },
+  {
+    "id": 98,
+    "lexicon_emotion": null,
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": []
+  },
+  {
+    "id": 99,
+    "lexicon_emotion": null,
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "matched_words": []
+  },
+  {
+    "id": 100,
+    "lexicon_emotion": "anticipation",
+    "lexicon_scores": {
+      "anger": 0,
+      "anticipation": 4,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 4,
+      "sadness": 2,
+      "surprise": 3,
+      "trust": 3
+    },
+    "matched_words": [
+      "perfect",
+      "gift",
+      "lovely",
+      "lovely"
+    ]
+  }
+]

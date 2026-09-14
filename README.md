@@ -69,6 +69,28 @@ confusion matrix. `manifest.json` records the prompt/source hashes and leakage
 controls. Reviewer text is included in `scored_reviews.csv`; do not add reviewer
 IDs or the raw dataset.
 
+## Emotion comparison: LLM vs NRC lexicon
+
+Step 5 keeps two independent primary-emotion outputs for the 100-review batch:
+
+- `build_sentiment_emotion_messages` asks Astra for strict JSON containing sentiment
+  and one of eight NRC emotions.
+- `emotion_lexicon.score_primary_emotion` tokenizes title + text, adds one point per
+  matching NRC emotion association, uses a fixed order for ties, and returns `null`
+  when no emotion-bearing word matches.
+
+The NRC comparison found 19 agreements among 85 reviews with a lexicon match
+(**22.35%**), plus 15 no-match reviews. Treating no-match as non-agreement gives
+19/100 (**19%**). NRC selected anticipation for 59 reviews, while Astra selected joy
+for 48 and trust for 42. This is expected to diverge: word counts are sensitive to
+surface words, while the LLM uses context. Neither output is gold emotion truth.
+Open `evaluation/gift-cards-batch-100/emotion-comparison.html` for the visual
+comparison and evidence table. `emotion_comparison.json` and `.csv` contain all
+joinable results and matched-word evidence.
+
+Source: NRC Emotion Lexicon v0.92 from the [public repository](https://github.com/Franck-Dernoncourt/NRC_Emotion_Lexicon).
+The NRC source README states that commercial use requires permission from NRC; see
+`data/NRC-emotion-lexicon-wordlevel-alphabetized-v0.92.txt` for the preserved source.
 ## Run tests
 
 ```bash

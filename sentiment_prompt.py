@@ -1,8 +1,10 @@
-"""Reusable binary sentiment prompt for Astra; no network calls or dependencies."""
+"""Reusable binary sentiment and primary-emotion prompts for Astra."""
 
 import json
 
-PROMPT_VERSION = '1.0.0'
+PROMPT_VERSION = '2.0.0'
+EMOTIONS = ('anger', 'anticipation', 'disgust', 'fear', 'joy', 'sadness', 'surprise', 'trust')
+
 SYSTEM_PROMPT = """You classify the sentiment of Amazon Gift Cards customer reviews.
 Use only the supplied title and text. Determine the reviewer's intended overall
 assessment of their purchase experience, not whether individual words sound happy.
@@ -53,24 +55,72 @@ Title: Gift card | Text: It is a twenty-dollar gift card.
 POSITIVE
 """
 
+EMOTION_SYSTEM_PROMPT = SYSTEM_PROMPT.replace(
+    'Return exactly one uppercase word: POSITIVE or NEGATIVE.',
+    'Return exactly one JSON object with exactly two keys: sentiment and emotion.',
+).replace(
+    'Do not return explanations, punctuation, Markdown, or additional labels.',
+    'The sentiment value must be POSITIVE or NEGATIVE. The emotion value must be one '
+    'of: anger, anticipation, disgust, fear, joy, sadness, surprise, trust. Do not '
+    'return explanations, Markdown, or additional keys.',
+) + """
 
-def build_sentiment_messages(title: str, text: str) -> list[dict[str, str]]:
-    """Return fresh role-separated messages suitable for an LLM chat request."""
+Emotion policy:
+- Select the single primary emotion most central to the reviewer's experience.
+- Choose the emotion conveyed by the whole review, not the most frequent emotion word.
+- Use joy for satisfaction or delight, trust for confidence/reliability, anticipation
+  for eager expectation, surprise for unexpected outcomes, fear for worry or risk,
+  sadness for disappointment or loss, anger for hostility or injustice, and disgust
+  for strong aversion or revulsion.
+- Do not infer an emotion merely from a factual word, a quoted opinion, or a problem
+  the reviewer says did not occur. Sarcasm and passive aggression can reverse literal
+  wording when context supports that reading.
+- If emotion is weak, mixed, or absent, choose the best-supported primary emotion;
+  use trust for a straightforward successful transaction and joy for clear delight.
+"""
+
+
+def _validate_review(title: str, text: str) -> None:
     if not isinstance(title, str) or not isinstance(text, str):
         raise TypeError('title and text must both be strings')
     if not title.strip() and not text.strip():
         raise ValueError('At least one of title or text must contain review content')
-    return [
-        {'role': 'system', 'content': SYSTEM_PROMPT},
-        {'role': 'user', 'content': json.dumps({'title': title, 'text': text}, ensure_ascii=False)},
-    ]
+
+
+def build_sentiment_messages(title: str, text: str) -> list[dict[str, str]]:
+    """Return role-separated messages for binary sentiment classification."""
+    _validate_review(title, text)
+    return [{'role': 'system', 'content': SYSTEM_PROMPT},
+            {'role': 'user', 'content': json.dumps({'title': title, 'text': text}, ensure_ascii=False)}]
+
+
+def build_sentiment_emotion_messages(title: str, text: str) -> list[dict[str, str]]:
+    """Return messages requesting strict JSON sentiment plus primary emotion."""
+    _validate_review(title, text)
+    return [{'role': 'system', 'content': EMOTION_SYSTEM_PROMPT},
+            {'role': 'user', 'content': json.dumps({'title': title, 'text': text}, ensure_ascii=False)}]
 
 
 def parse_sentiment(response: str) -> str:
-    """Validate a model response, allowing only surrounding whitespace."""
+    """Validate a binary model response, allowing surrounding whitespace."""
     if not isinstance(response, str):
         raise TypeError('The model response must be a string')
     label = response.strip()
     if label not in ('POSITIVE', 'NEGATIVE'):
         raise ValueError('Expected exactly POSITIVE or NEGATIVE')
     return label
+
+
+def parse_sentiment_emotion(response: str) -> dict[str, str]:
+    """Validate strict JSON returned by the sentiment/emotion prompt."""
+    if not isinstance(response, str):
+        raise TypeError('The model response must be a string')
+    try:
+        value = json.loads(response)
+    except json.JSONDecodeError as exc:
+        raise ValueError('Expected a JSON object with sentiment and emotion') from exc
+    if (not isinstance(value, dict) or set(value) != {'sentiment', 'emotion'}
+            or value['sentiment'] not in ('POSITIVE', 'NEGATIVE')
+            or value['emotion'] not in EMOTIONS):
+        raise ValueError('Expected exactly sentiment POSITIVE/NEGATIVE and a valid emotion')
+    return value
