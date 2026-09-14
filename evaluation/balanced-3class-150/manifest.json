@@ -1,0 +1,22 @@
+{
+  "source_file": "C:\\Users\\mcken\\AppData\\Local\\hermes\\outputs\\gift-cards-check\\Gift_Cards.jsonl.gz",
+  "source_reviews_scanned": 152410,
+  "seed": 6418,
+  "sample_per_class": 50,
+  "total": 150,
+  "class_rule": {
+    "POSITIVE": "rating 4-5",
+    "NEUTRAL": "rating 3",
+    "NEGATIVE": "rating 1-2"
+  },
+  "inputs_exclude": [
+    "rating",
+    "reference",
+    "source_line"
+  ],
+  "class_counts": {
+    "POSITIVE": 50,
+    "NEUTRAL": 50,
+    "NEGATIVE": 50
+  }
+}

@@ -14,6 +14,7 @@ class PromptTests(unittest.TestCase):
         self.assertEqual([m['role'] for m in messages], ['system', 'user'])
         self.assertEqual(json.loads(messages[1]['content']), {'title': title, 'text': text})
         self.assertIn('POSITIVE', messages[0]['content'])
+        self.assertIn('NEUTRAL', messages[0]['content'])
         self.assertIn('NEGATIVE', messages[0]['content'])
 
     def test_rejects_non_strings_and_reviews_without_content(self):
@@ -31,9 +32,9 @@ class PromptTests(unittest.TestCase):
     def test_validates_model_output_without_guessing(self):
         import sentiment_prompt
         self.assertTrue(hasattr(sentiment_prompt, 'parse_sentiment'))
-        for label in ('POSITIVE', 'NEGATIVE'):
+        for label in ('POSITIVE', 'NEUTRAL', 'NEGATIVE'):
             self.assertEqual(sentiment_prompt.parse_sentiment(' ' + label + '\n'), label)
-        for invalid in ('positive', 'NEUTRAL', 'POSITIVE because it worked', '', '"NEGATIVE"'):
+        for invalid in ('positive', 'MIXED', 'POSITIVE because it worked', '', '"NEGATIVE"'):
             with self.subTest(invalid=invalid), self.assertRaises(ValueError):
                 sentiment_prompt.parse_sentiment(invalid)
         with self.assertRaises(TypeError):

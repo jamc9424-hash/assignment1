@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "source_line": 102814,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 2,
+    "source_line": 148765,
+    "rating": 4.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 3,
+    "source_line": 41362,
+    "rating": 4.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 4,
+    "source_line": 27652,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 5,
+    "source_line": 67518,
+    "rating": 4.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 6,
+    "source_line": 14529,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 7,
+    "source_line": 49111,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 8,
+    "source_line": 90351,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 9,
+    "source_line": 87290,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 10,
+    "source_line": 47095,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 11,
+    "source_line": 69248,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 12,
+    "source_line": 66453,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 13,
+    "source_line": 137864,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 14,
+    "source_line": 29776,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 15,
+    "source_line": 31152,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 16,
+    "source_line": 126733,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 17,
+    "source_line": 32438,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 18,
+    "source_line": 63279,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 19,
+    "source_line": 22975,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 20,
+    "source_line": 147566,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 21,
+    "source_line": 18871,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 22,
+    "source_line": 132501,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 23,
+    "source_line": 12466,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 24,
+    "source_line": 43306,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 25,
+    "source_line": 102765,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 26,
+    "source_line": 86392,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 27,
+    "source_line": 132751,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 28,
+    "source_line": 84579,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 29,
+    "source_line": 128934,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 30,
+    "source_line": 131243,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 31,
+    "source_line": 124705,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 32,
+    "source_line": 105657,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 33,
+    "source_line": 64683,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 34,
+    "source_line": 23069,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 35,
+    "source_line": 48445,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 36,
+    "source_line": 91556,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 37,
+    "source_line": 17623,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 38,
+    "source_line": 35757,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 39,
+    "source_line": 136513,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 40,
+    "source_line": 9320,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 41,
+    "source_line": 66678,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 42,
+    "source_line": 94271,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 43,
+    "source_line": 11101,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 44,
+    "source_line": 123544,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 45,
+    "source_line": 113096,
+    "rating": 2.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 46,
+    "source_line": 98185,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 47,
+    "source_line": 33987,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 48,
+    "source_line": 66165,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 49,
+    "source_line": 11607,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 50,
+    "source_line": 144676,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 51,
+    "source_line": 72345,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 52,
+    "source_line": 52979,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 53,
+    "source_line": 150017,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 54,
+    "source_line": 97409,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 55,
+    "source_line": 135748,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 56,
+    "source_line": 141586,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 57,
+    "source_line": 94183,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 58,
+    "source_line": 57342,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 59,
+    "source_line": 88278,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 60,
+    "source_line": 151039,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 61,
+    "source_line": 148302,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 62,
+    "source_line": 121634,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 63,
+    "source_line": 119798,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 64,
+    "source_line": 83032,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 65,
+    "source_line": 112404,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 66,
+    "source_line": 3319,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 67,
+    "source_line": 132469,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 68,
+    "source_line": 46714,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 69,
+    "source_line": 110851,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 70,
+    "source_line": 91578,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 71,
+    "source_line": 39071,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 72,
+    "source_line": 92743,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 73,
+    "source_line": 115160,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 74,
+    "source_line": 22438,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 75,
+    "source_line": 81266,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 76,
+    "source_line": 113184,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 77,
+    "source_line": 38692,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 78,
+    "source_line": 117598,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 79,
+    "source_line": 148143,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 80,
+    "source_line": 37502,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 81,
+    "source_line": 4219,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 82,
+    "source_line": 110675,
+    "rating": 2.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 83,
+    "source_line": 128395,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 84,
+    "source_line": 96779,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 85,
+    "source_line": 120381,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 86,
+    "source_line": 110854,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 87,
+    "source_line": 112545,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 88,
+    "source_line": 63708,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 89,
+    "source_line": 122436,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 90,
+    "source_line": 130395,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 91,
+    "source_line": 132494,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 92,
+    "source_line": 71162,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 93,
+    "source_line": 59472,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 94,
+    "source_line": 102406,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 95,
+    "source_line": 26928,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 96,
+    "source_line": 80294,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 97,
+    "source_line": 836,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 98,
+    "source_line": 88205,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 99,
+    "source_line": 88805,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 100,
+    "source_line": 78562,
+    "rating": 2.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 101,
+    "source_line": 100927,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 102,
+    "source_line": 31200,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 103,
+    "source_line": 75279,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 104,
+    "source_line": 94520,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 105,
+    "source_line": 80207,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 106,
+    "source_line": 99210,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 107,
+    "source_line": 148854,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 108,
+    "source_line": 85973,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 109,
+    "source_line": 107946,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 110,
+    "source_line": 90118,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 111,
+    "source_line": 73795,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 112,
+    "source_line": 88065,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 113,
+    "source_line": 141300,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 114,
+    "source_line": 63860,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 115,
+    "source_line": 71139,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 116,
+    "source_line": 34148,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 117,
+    "source_line": 133998,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 118,
+    "source_line": 84881,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 119,
+    "source_line": 151653,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 120,
+    "source_line": 94939,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 121,
+    "source_line": 144603,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 122,
+    "source_line": 118955,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 123,
+    "source_line": 95229,
+    "rating": 2.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 124,
+    "source_line": 67364,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 125,
+    "source_line": 115506,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 126,
+    "source_line": 47495,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 127,
+    "source_line": 79123,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 128,
+    "source_line": 147837,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 129,
+    "source_line": 11345,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 130,
+    "source_line": 140507,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 131,
+    "source_line": 137065,
+    "rating": 2.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 132,
+    "source_line": 101906,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 133,
+    "source_line": 15284,
+    "rating": 2.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 134,
+    "source_line": 141116,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 135,
+    "source_line": 94930,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 136,
+    "source_line": 95903,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 137,
+    "source_line": 129479,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 138,
+    "source_line": 112943,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 139,
+    "source_line": 144315,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 140,
+    "source_line": 146498,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 141,
+    "source_line": 137927,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 142,
+    "source_line": 131420,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 143,
+    "source_line": 123616,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 144,
+    "source_line": 37839,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 145,
+    "source_line": 90794,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 146,
+    "source_line": 40023,
+    "rating": 1.0,
+    "reference": "NEGATIVE"
+  },
+  {
+    "id": 147,
+    "source_line": 103801,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 148,
+    "source_line": 109835,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  },
+  {
+    "id": 149,
+    "source_line": 104241,
+    "rating": 5.0,
+    "reference": "POSITIVE"
+  },
+  {
+    "id": 150,
+    "source_line": 52024,
+    "rating": 3.0,
+    "reference": "NEUTRAL"
+  }
+]

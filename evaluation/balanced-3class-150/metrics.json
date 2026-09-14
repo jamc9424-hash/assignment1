@@ -1,0 +1,1221 @@
+{
+  "n": 150,
+  "correct": 113,
+  "incorrect": 37,
+  "accuracy": 0.7533,
+  "macro_f1": 0.7208,
+  "balanced_accuracy": 0.7533,
+  "confusion_matrix": {
+    "POSITIVE": {
+      "POSITIVE": 49,
+      "NEUTRAL": 1,
+      "NEGATIVE": 0
+    },
+    "NEUTRAL": {
+      "POSITIVE": 8,
+      "NEUTRAL": 17,
+      "NEGATIVE": 25
+    },
+    "NEGATIVE": {
+      "POSITIVE": 2,
+      "NEUTRAL": 1,
+      "NEGATIVE": 47
+    }
+  },
+  "per_class": {
+    "POSITIVE": {
+      "support": 50,
+      "predicted": 59,
+      "precision": 0.8305,
+      "recall": 0.98,
+      "f1": 0.8991
+    },
+    "NEUTRAL": {
+      "support": 50,
+      "predicted": 19,
+      "precision": 0.8947,
+      "recall": 0.34,
+      "f1": 0.4928
+    },
+    "NEGATIVE": {
+      "support": 50,
+      "predicted": 72,
+      "precision": 0.6528,
+      "recall": 0.94,
+      "f1": 0.7705
+    }
+  },
+  "reference_distribution": {
+    "NEUTRAL": 50,
+    "POSITIVE": 50,
+    "NEGATIVE": 50
+  },
+  "prediction_distribution": {
+    "NEGATIVE": 72,
+    "POSITIVE": 59,
+    "NEUTRAL": 19
+  },
+  "three_star_n": 50,
+  "three_star_predictions": {
+    "NEGATIVE": 25,
+    "POSITIVE": 8,
+    "NEUTRAL": 17
+  },
+  "three_star_correct": 17,
+  "emotion_compared_n": 121,
+  "emotion_agreements": 13,
+  "emotion_disagreements": 108,
+  "emotion_agreement_rate": 0.1074,
+  "emotion_all_rows_agreement_rate": 0.0867,
+  "lexicon_no_match": 29,
+  "llm_emotion_distribution": {
+    "anger": 40,
+    "joy": 38,
+    "trust": 28,
+    "sadness": 26,
+    "disgust": 6,
+    "surprise": 7,
+    "fear": 3,
+    "anticipation": 2
+  },
+  "lexicon_emotion_distribution": {
+    "anticipation": 77,
+    "no_match": 29,
+    "anger": 12,
+    "joy": 12,
+    "trust": 12,
+    "disgust": 1,
+    "fear": 3,
+    "sadness": 3,
+    "surprise": 1
+  },
+  "emotion_confusion_matrix": {
+    "anger": {
+      "anger": 5,
+      "anticipation": 17,
+      "disgust": 0,
+      "fear": 2,
+      "joy": 1,
+      "sadness": 2,
+      "surprise": 0,
+      "trust": 7
+    },
+    "anticipation": {
+      "anger": 0,
+      "anticipation": 0,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 1,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "disgust": {
+      "anger": 0,
+      "anticipation": 4,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 1
+    },
+    "fear": {
+      "anger": 1,
+      "anticipation": 1,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 0
+    },
+    "joy": {
+      "anger": 1,
+      "anticipation": 24,
+      "disgust": 0,
+      "fear": 1,
+      "joy": 5,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 1
+    },
+    "sadness": {
+      "anger": 3,
+      "anticipation": 15,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 2,
+      "sadness": 0,
+      "surprise": 0,
+      "trust": 1
+    },
+    "surprise": {
+      "anger": 1,
+      "anticipation": 3,
+      "disgust": 1,
+      "fear": 0,
+      "joy": 0,
+      "sadness": 0,
+      "surprise": 1,
+      "trust": 0
+    },
+    "trust": {
+      "anger": 1,
+      "anticipation": 13,
+      "disgust": 0,
+      "fear": 0,
+      "joy": 3,
+      "sadness": 1,
+      "surprise": 0,
+      "trust": 2
+    }
+  },
+  "errors": [
+    {
+      "id": 1,
+      "source_line": 102814,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "anger",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 8,
+        "disgust": 0,
+        "fear": 2,
+        "joy": 4,
+        "sadness": 2,
+        "surprise": 5,
+        "trust": 0
+      },
+      "matched_words": [
+        "leave",
+        "time",
+        "gift",
+        "time",
+        "recipient",
+        "gift",
+        "gift",
+        "problem",
+        "recipient",
+        "confusion",
+        "gift"
+      ],
+      "emotion_agreement": false,
+      "title": "Leave yourself time to match gifts to recipients!",
+      "text": "Gift card tin arrived with Santa bag on time. However, the recipient information was tossed in the package without any reference to the actual gifts. Luckily I knew which tag went with which gift, and the gift values weee the same. However, this was a problem for gifts sent directly to recipients. The only gifts which were properly marked were the gift-wrapped items, but even those arrived with extra recipient tags adding to confusion. We should not have to build-a-gift at these prices. Amazon, you can do much better than this!"
+    },
+    {
+      "id": 8,
+      "source_line": 90351,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "POSITIVE",
+      "correct": false,
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 7,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 7,
+        "sadness": 0,
+        "surprise": 7,
+        "trust": 3
+      },
+      "matched_words": [
+        "good",
+        "gift",
+        "good",
+        "gift",
+        "gift",
+        "gift",
+        "good"
+      ],
+      "emotion_agreement": false,
+      "title": "Attractive box and good gift for friends",
+      "text": "It's always a good gift to thank friends. No other item is better than an Amazon gift card I believe. The gift box is attractive and good appearance."
+    },
+    {
+      "id": 12,
+      "source_line": 66453,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "anger",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift",
+        "gift"
+      ],
+      "emotion_agreement": false,
+      "title": "There was zero balance on card! It was supose to be $25.000 gift card!",
+      "text": "There was zero balance on gift card! It should have been $25.00. She went to use it and there was supose to be a  card with it and no card to say who was from! This needs to be corrected. ."
+    },
+    {
+      "id": 23,
+      "source_line": 12466,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "POSITIVE",
+      "correct": false,
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 2
+      },
+      "matched_words": [
+        "good",
+        "good"
+      ],
+      "emotion_agreement": false,
+      "title": "Good value",
+      "text": "Good value"
+    },
+    {
+      "id": 25,
+      "source_line": 102765,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "POSITIVE",
+      "correct": false,
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 1
+      },
+      "matched_words": [
+        "good"
+      ],
+      "emotion_agreement": false,
+      "title": "Good",
+      "text": "Ok"
+    },
+    {
+      "id": 29,
+      "source_line": 128934,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "sadness",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null,
+      "title": "Three Stars",
+      "text": "This tin came all dented."
+    },
+    {
+      "id": 33,
+      "source_line": 64683,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "surprise",
+      "lexicon_emotion": "disgust",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 0,
+        "disgust": 2,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [
+        "misleading",
+        "mess"
+      ],
+      "emotion_agreement": false,
+      "title": "misleading",
+      "text": "Figured out that this whole mess was because there were more than a card in some of the boxes (one worked, the other not)."
+    },
+    {
+      "id": 43,
+      "source_line": 11101,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "POSITIVE",
+      "correct": false,
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift"
+      ],
+      "emotion_agreement": false,
+      "title": "Gift card",
+      "text": "Easy to use and reload"
+    },
+    {
+      "id": 46,
+      "source_line": 98185,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "sadness",
+      "lexicon_emotion": "joy",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 3,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 2
+      },
+      "matched_words": [
+        "special",
+        "spouse",
+        "food"
+      ],
+      "emotion_agreement": false,
+      "title": "not unusually",
+      "text": "unlike nothing, it was not special , I brought these for my spouse, he said the food was better in NJ"
+    },
+    {
+      "id": 55,
+      "source_line": 135748,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "anger",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 2
+      },
+      "matched_words": [
+        "don",
+        "gift",
+        "ridiculous",
+        "pretty"
+      ],
+      "emotion_agreement": false,
+      "title": "Why don’t you include the amount?!",
+      "text": "I read reviews that the total wouldn’t be on the cards. I was fine with it. Until I learned I’d have to scratch every gift card code on the back to figure out the totals. Now they look used and have to give them to my kids teachers. Ridiculous. I’d imagine these are pretty loaded In the warehouse waiting to go out? Put the amount on the plastic bag they come in. It’s really not that complicated."
+    },
+    {
+      "id": 61,
+      "source_line": 148302,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "POSITIVE",
+      "correct": false,
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 1,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 1
+      },
+      "matched_words": [
+        "boy",
+        "good"
+      ],
+      "emotion_agreement": false,
+      "title": "Oh boy!",
+      "text": "Good stuff."
+    },
+    {
+      "id": 64,
+      "source_line": 83032,
+      "rating": 5.0,
+      "reference": "POSITIVE",
+      "prediction": "NEUTRAL",
+      "correct": false,
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 4,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 4,
+        "sadness": 0,
+        "surprise": 4,
+        "trust": 2
+      },
+      "matched_words": [
+        "gift",
+        "gift",
+        "money",
+        "good"
+      ],
+      "emotion_agreement": false,
+      "title": "Gift cards are neat",
+      "text": "They're gift cards. Woohoo you payed to put money on a card. I know I did it. It was for good reason though."
+    },
+    {
+      "id": 75,
+      "source_line": 81266,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "anger",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 8,
+        "disgust": 0,
+        "fear": 2,
+        "joy": 8,
+        "sadness": 2,
+        "surprise": 6,
+        "trust": 3
+      },
+      "matched_words": [
+        "gift",
+        "gift",
+        "pain",
+        "credit",
+        "gift",
+        "pay",
+        "gift",
+        "gift",
+        "gift",
+        "pay",
+        "pain"
+      ],
+      "emotion_agreement": false,
+      "title": "its gift card",
+      "text": "its a gift card, not even sure why Amazon wants me to review it. It was a pain as I had credit card gift card I wanted to use and pay the remainder on my debit card, Amazon said \"no\". So I had to buy this gift card with the other gift card so I could buy my gift and pay the difference on my own card, what a pain."
+    },
+    {
+      "id": 77,
+      "source_line": 38692,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "POSITIVE",
+      "correct": false,
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 1
+      },
+      "matched_words": [
+        "gift",
+        "good"
+      ],
+      "emotion_agreement": false,
+      "title": "Great gift to me",
+      "text": "The design is cool. Overall GOOD."
+    },
+    {
+      "id": 79,
+      "source_line": 148143,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "sadness",
+      "lexicon_emotion": "trust",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 1
+      },
+      "matched_words": [
+        "don"
+      ],
+      "emotion_agreement": false,
+      "title": "Could not use",
+      "text": "I don’t think it has anything on it"
+    },
+    {
+      "id": 86,
+      "source_line": 110854,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "anger",
+      "lexicon_emotion": "anger",
+      "lexicon_scores": {
+        "anger": 2,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [
+        "fee",
+        "fee"
+      ],
+      "emotion_agreement": true,
+      "title": "Wht such a high purchase fee?",
+      "text": "I think the service fee of $5.95 is too high."
+    },
+    {
+      "id": 87,
+      "source_line": 112545,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "sadness",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 3,
+        "anticipation": 5,
+        "disgust": 3,
+        "fear": 0,
+        "joy": 4,
+        "sadness": 3,
+        "surprise": 3,
+        "trust": 0
+      },
+      "matched_words": [
+        "disappointed",
+        "disappointed",
+        "child",
+        "birthday",
+        "gift",
+        "gift",
+        "time",
+        "unhappy"
+      ],
+      "emotion_agreement": false,
+      "title": "Disappointed in the bent tin.",
+      "text": "I received this and it was so bent up that the cupcake tin wouldn’t close.  I was disappointed because it was for a child’s birthday gift.  I’ve purchased many gift cards and this is the only time I was unhappy with my purchase."
+    },
+    {
+      "id": 88,
+      "source_line": 63708,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "surprise",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "bonus"
+      ],
+      "emotion_agreement": false,
+      "title": "Details unclear",
+      "text": "An attractive offer but i did not understand that the bonus would only apply to an order shipped directly from Amazon"
+    },
+    {
+      "id": 91,
+      "source_line": 132494,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "sadness",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 5,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 5,
+        "sadness": 0,
+        "surprise": 5,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift",
+        "gift",
+        "receiving",
+        "gift",
+        "gift"
+      ],
+      "emotion_agreement": false,
+      "title": "Would have been nice if the \"this is a gift\" line was noticed ...",
+      "text": "This was a gift item and the person receiving said there was no information from where it came.  She had to send an embarrassing text to find out &#34;who sent the Amazon gift card&#34;.  Would have been nice if the &#34;this is a gift&#34; line was noticed with to and from."
+    },
+    {
+      "id": 101,
+      "source_line": 100927,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "anger",
+      "lexicon_emotion": "sadness",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 1,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [
+        "cancel"
+      ],
+      "emotion_agreement": false,
+      "title": "Having problems doing that",
+      "text": "Trying to cancel it"
+    },
+    {
+      "id": 105,
+      "source_line": 80207,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "anger",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null,
+      "title": "Service",
+      "text": "My card was all damaged and the outside envelope came later then said"
+    },
+    {
+      "id": 108,
+      "source_line": 85973,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "surprise",
+      "lexicon_emotion": "surprise",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 7,
+        "disgust": 1,
+        "fear": 2,
+        "joy": 6,
+        "sadness": 0,
+        "surprise": 8,
+        "trust": 4
+      },
+      "matched_words": [
+        "beware",
+        "gift",
+        "relative",
+        "recipient",
+        "label",
+        "recipient",
+        "slip",
+        "gift",
+        "finally",
+        "found",
+        "slip",
+        "slip",
+        "gift",
+        "surprise"
+      ],
+      "emotion_agreement": true,
+      "title": "Beware of packaging",
+      "text": "I purchased a $50 gift card and had it sent to a relative. All of the online documentation indicated the recipient would not know what was in the package.  There was a box during the order process for a To: and From: and I also added \"Do Not Open Until Christmas\". The package arrived on the specified day but the label on the outside of the box did not have any indication of my note.  The recipient opened the box to find a sealed Amazon envelope and a packing slip.  The sealed envelope contained the gift card.  I figured the note should be here; nope.  I finally found the note on the packing slip.  OK, that's fine, but the packing slip also had the description of what was inside the sealed envelope including the denomination of the gift card; so much for a surprise."
+    },
+    {
+      "id": 110,
+      "source_line": 90118,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "sadness",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 3,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 3,
+        "sadness": 1,
+        "surprise": 3,
+        "trust": 2
+      },
+      "matched_words": [
+        "gift",
+        "brother",
+        "disappointing",
+        "gift",
+        "gift",
+        "brother"
+      ],
+      "emotion_agreement": false,
+      "title": "Gift message was not left with package, my brother had no idea who it was from, very disappointing.",
+      "text": "Should have given the gift message with the gift card so my brother knew who it was from."
+    },
+    {
+      "id": 114,
+      "source_line": 63860,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "POSITIVE",
+      "correct": false,
+      "llm_emotion": "joy",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 2,
+        "disgust": 1,
+        "fear": 1,
+        "joy": 2,
+        "sadness": 1,
+        "surprise": 1,
+        "trust": 1
+      },
+      "matched_words": [
+        "ill",
+        "glad",
+        "reward"
+      ],
+      "emotion_agreement": false,
+      "title": "ill try most things, once",
+      "text": "glad to get a ten dollar reward to try it out."
+    },
+    {
+      "id": 117,
+      "source_line": 133998,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "disgust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 1,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "limited",
+        "gift",
+        "store"
+      ],
+      "emotion_agreement": false,
+      "title": "Limited use",
+      "text": "This gift card cannot be used at Starbucks in a Barnes and nobles store."
+    },
+    {
+      "id": 118,
+      "source_line": 84881,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "POSITIVE",
+      "correct": false,
+      "llm_emotion": "joy",
+      "lexicon_emotion": "fear",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 1,
+        "joy": 0,
+        "sadness": 1,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [
+        "case"
+      ],
+      "emotion_agreement": false,
+      "title": "Three Stars",
+      "text": "Cute little Xmas case"
+    },
+    {
+      "id": 121,
+      "source_line": 144603,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "fear",
+      "lexicon_emotion": "anger",
+      "lexicon_scores": {
+        "anger": 3,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 3,
+        "joy": 2,
+        "sadness": 2,
+        "surprise": 2,
+        "trust": 3
+      },
+      "matched_words": [
+        "steal",
+        "money",
+        "avoid",
+        "money",
+        "missing",
+        "personal"
+      ],
+      "emotion_agreement": false,
+      "title": "Call the number on the back to register card DO NOT USE SITE",
+      "text": "2/3 worked fine trying to get Amazon to fix the last card because a google charge ended up there that wasn’t me. People are using fake sites to steal money so just call the number on the back of the card to avoid your money going missing and try to transfer it to a personal card if you can"
+    },
+    {
+      "id": 122,
+      "source_line": 118955,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "anger",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 2,
+        "sadness": 0,
+        "surprise": 2,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift",
+        "gift"
+      ],
+      "emotion_agreement": false,
+      "title": "ok but I was offered a $10. gift promo ...",
+      "text": "ok  but I was offered a $10. gift promo for ordering it but did not receive it... and I ordered another $50.card with same promo and got card and no promotion., so I gave it a 3"
+    },
+    {
+      "id": 124,
+      "source_line": 67364,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "disgust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 2,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 1
+      },
+      "matched_words": [
+        "pretty",
+        "thought"
+      ],
+      "emotion_agreement": false,
+      "title": "Pretty but too thin",
+      "text": "It is too thin as I thought"
+    },
+    {
+      "id": 126,
+      "source_line": 47495,
+      "rating": 1.0,
+      "reference": "NEGATIVE",
+      "prediction": "NEUTRAL",
+      "correct": false,
+      "llm_emotion": "surprise",
+      "lexicon_emotion": "anger",
+      "lexicon_scores": {
+        "anger": 1,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift",
+        "screwed"
+      ],
+      "emotion_agreement": false,
+      "title": "To give a Christmas gift card in June someone screwed up. I asked for a different card front",
+      "text": "Wrong card.  I’ll keep this for Christmas"
+    },
+    {
+      "id": 133,
+      "source_line": 15284,
+      "rating": 2.0,
+      "reference": "NEGATIVE",
+      "prediction": "POSITIVE",
+      "correct": false,
+      "llm_emotion": "trust",
+      "lexicon_emotion": "sadness",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 2,
+        "surprise": 0,
+        "trust": 2
+      },
+      "matched_words": [
+        "tough",
+        "personal",
+        "tough",
+        "personal"
+      ],
+      "emotion_agreement": false,
+      "title": "These are handy for tough to buy for folks.  Not very personal, but it does allow them to make their own purchases.",
+      "text": "These are handy for tough to buy for folks.  Not very personal, but it does allow them to make their own purchases."
+    },
+    {
+      "id": 139,
+      "source_line": 144315,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "anger",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 0
+      },
+      "matched_words": [
+        "gift"
+      ],
+      "emotion_agreement": false,
+      "title": "How much is on the card?",
+      "text": "I ordered several gift cards at different amounts.  They all came in the same package and there's no way to tell which one is which."
+    },
+    {
+      "id": 140,
+      "source_line": 146498,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "surprise",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null,
+      "title": "Confusing!!",
+      "text": "Very confusing!"
+    },
+    {
+      "id": 143,
+      "source_line": 123616,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "anger",
+      "lexicon_emotion": "joy",
+      "lexicon_scores": {
+        "anger": 2,
+        "anticipation": 3,
+        "disgust": 0,
+        "fear": 2,
+        "joy": 4,
+        "sadness": 2,
+        "surprise": 3,
+        "trust": 3
+      },
+      "matched_words": [
+        "teacher",
+        "appreciation",
+        "gift",
+        "destroyed",
+        "don",
+        "gift",
+        "gift",
+        "destroyed"
+      ],
+      "emotion_agreement": false,
+      "title": "Nice product but…",
+      "text": "Purchased these to add to teacher appreciation gifts. The gift card holders/envelopes are really nice and make for very nice presentation. However I ordered three and one came destroyed. There are no holes in the plastic but it is stretched like someone purposely ripped the envelope open. The claim sticker is not removed so I don’t believe the gift card has been compromised. But if someone ordered these they are likely for a gift so why would you send one that is destroyed."
+    },
+    {
+      "id": 146,
+      "source_line": 40023,
+      "rating": 1.0,
+      "reference": "NEGATIVE",
+      "prediction": "POSITIVE",
+      "correct": false,
+      "llm_emotion": "trust",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 1
+      },
+      "matched_words": [
+        "star"
+      ],
+      "emotion_agreement": false,
+      "title": "One Star",
+      "text": "works fine"
+    },
+    {
+      "id": 148,
+      "source_line": 109835,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "sadness",
+      "lexicon_emotion": null,
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 0,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 0,
+        "sadness": 0,
+        "surprise": 0,
+        "trust": 0
+      },
+      "matched_words": [],
+      "emotion_agreement": null,
+      "title": "It wasn't like the one on this page",
+      "text": "I wasn't impressed with the tin. It wasn't like the one on this page. Get candy crush jelly saga."
+    },
+    {
+      "id": 150,
+      "source_line": 52024,
+      "rating": 3.0,
+      "reference": "NEUTRAL",
+      "prediction": "NEGATIVE",
+      "correct": false,
+      "llm_emotion": "fear",
+      "lexicon_emotion": "anticipation",
+      "lexicon_scores": {
+        "anger": 0,
+        "anticipation": 1,
+        "disgust": 0,
+        "fear": 0,
+        "joy": 1,
+        "sadness": 0,
+        "surprise": 1,
+        "trust": 1
+      },
+      "matched_words": [
+        "good"
+      ],
+      "emotion_agreement": false,
+      "title": "Filling a leaky bucket",
+      "text": "The process is easy, which is good because Kindle raids that balance first.  When you go back later to use the balance, it's reduced or gone."
+    }
+  ]
+}
