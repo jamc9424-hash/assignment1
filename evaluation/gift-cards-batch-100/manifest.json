@@ -1,0 +1,17 @@
+{
+  "source_sha256": "e03a258ebd7b1e2591b09862aab65d3dcde9c300744d800aa1fbaf374b7c2340",
+  "source_lines": [
+    1,
+    100
+  ],
+  "count": 100,
+  "prompt_version": "1.0.0",
+  "prompt_sha256": "ddc1ce93c65a71e4f612310eacc5b992fcb336eb458ac223216867c803cceb5b",
+  "execution": "Four fresh isolated Astra delegate contexts; 25 reviews per context; saved prompt unchanged, output wrapped as id/label pairs for batch association. No separate provider API integration.",
+  "input_fields": [
+    "id (row association only)",
+    "title",
+    "text"
+  ],
+  "predictions_locked_before_scoring": true
+}

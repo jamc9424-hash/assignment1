@@ -57,6 +57,18 @@ does not assign emotion labels.
 
 These expectations are illustrative test targets, not evidence of model performance.
 
+## Evaluation: first 100 reviews
+
+The blinded first-batch evaluation is preserved under `evaluation/gift-cards-batch-100/`.
+Astra classified each review from title and text only; ratings were read afterward
+and converted to the reference rule `4–5 stars = POSITIVE`, `1–3 stars = NEGATIVE`.
+Results: 98/100 accuracy, 92.31% macro F1, and 92.31% balanced accuracy. The HTML
+file provides the visual score-vs-rating report. These are rating-proxy results,
+not gold sentiment labels; see `metrics.json` for the two disagreements and full
+confusion matrix. `manifest.json` records the prompt/source hashes and leakage
+controls. Reviewer text is included in `scored_reviews.csv`; do not add reviewer
+IDs or the raw dataset.
+
 ## Run tests
 
 ```bash
